@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Student Survey</title>
+  </head>
+  <body>
+    <header>
+      <h1>Student Survey – STEAM Subjects</h1>
+    </header>
+    <main>
+      <section id="survey">
+        <h2>Tell us about your favourite STEAM subject</h2>
+        <form id="steamSurvey">
+          <label for="stuName">Name:</label>
+          <input type="text" id="stuName" name="stuName" required />
+          <label for="favSubject">Favourite STEAM subject:</label>
+          <input type="text" id="favSubject" name="favSubject" required />
+          <label for="reason">Why do you like it?</label>
+          <textarea id="reason" name="reason" rows="4" cols="40"></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+      <section id="results">
+        <h2>Hypothetical Survey Results</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Favourite Subject</th>
+              <th>Why</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Alice</td>
+              <td>Physics</td>
+              <td>Exploring how things move.</td>
+            </tr>
+            <tr>
+              <td>Bob</td>
+              <td>Art &amp; Design</td>
+              <td>Combining creativity and tech.</td>
+            </tr>
+            <tr>
+              <td>Charlie</td>
+              <td>Biology</td>
+              <td>Understanding life and data.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2025 School Name</p>
+    </footer>
+  </body>
+</html>

@@ -63,7 +63,7 @@
             </tr>
             <tr>
               <td>Bob</td>
-              <td>Art &-Design</td>
+              <td>Art &amp; Design</td>
               <td>Combining creativity and tech.</td>
             </tr>
             <tr>
