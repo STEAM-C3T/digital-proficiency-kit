@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Generative Grid</title>
+    <style>
+      body {
+        margin: 0;
+        background: #111827;
+        color: #e5e7eb;
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      }
+      canvas {
+        display: block;
+        width: 100vw;
+        height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="c"></canvas>
+    <script>
+      const canvas = document.getElementById("c");
+      const ctx = canvas.getContext("2d");
+
+      function resize() {
+        canvas.width = innerWidth;
+        canvas.height = innerHeight;
+      }
+      addEventListener("resize", resize);
+      resize();
+
+      function loop(t) {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        const cols = 20,
+          rows = 12,
+          pad = 20;
+        const cellW = (canvas.width - pad * 2) / cols;
+        const cellH = (canvas.height - pad * 2) / rows;
+        for (let y = 0; y < rows; y++) {
+          for (let x = 0; x < cols; x++) {
+            const cx = pad + x * cellW + cellW / 2;
+            const cy = pad + y * cellH + cellH / 2;
+            const r =
+              ((Math.sin(x + y + t * 0.002) * 0.5 + 0.5) *
+                Math.min(cellW, cellH)) /
+              3;
+            ctx.fillStyle = `hsl(${
+              (x * 18 + y * 12 + t * 0.05) % 360
+            } 80% 60% / 0.7)`;
+            ctx.beginPath();
+            ctx.arc(cx, cy, r, 0, Math.PI * 2);
+            ctx.fill();
+          }
+        }
+        requestAnimationFrame(loop);
+      }
+      requestAnimationFrame(loop);
+    </script>
+  </body>
+</html>
