@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Canvas Bar Chart Example</title>
+    <style>
+      body {
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+        margin: 1rem;
+      }
+      #wrap {
+        max-width: 640px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrap">
+      <h1>CO₂ Savings (kg)</h1>
+      <canvas
+        id="chart"
+        width="600"
+        height="360"
+        aria-label="Bar chart of CO2 savings by month"
+      ></canvas>
+    </div>
+    <script>
+      const data = [12, 18, 15, 22, 27, 19];
+      const labels = ["Jan", "Feb", "Mar", "Apr", "May", "Jun"];
+
+      const canvas = document.getElementById("chart");
+      const ctx = canvas.getContext("2d");
+
+      const padding = 40;
+      const w = canvas.width - padding * 2;
+      const h = canvas.height - padding * 2;
+      const max = Math.max(...data) * 1.2;
+      const barW = (w / data.length) * 0.7;
+      const gap = (w / data.length) * 0.3;
+
+      ctx.font = "12px system-ui";
+      ctx.textAlign = "center";
+
+      // draw baseline
+      ctx.strokeStyle = "#d1d5db";
+      ctx.beginPath();
+      ctx.moveTo(padding, padding + h + 0.5);
+      ctx.lineTo(padding + w, padding + h + 0.5);
+      ctx.stroke();
+
+      data.forEach((v, i) => {
+        const x = padding + i * (barW + gap) + gap / 2;
+        const y = padding + h - (v / max) * h;
+        const barH = (v / max) * h;
+
+        ctx.fillStyle = "#34d399"; // green
+        ctx.fillRect(x, y, barW, barH);
+
+        ctx.fillStyle = "#111827";
+        ctx.fillText(String(v), x + barW / 2, y - 6);
+        ctx.fillStyle = "#374151";
+        ctx.fillText(labels[i], x + barW / 2, padding + h + 16);
+      });
+    </script>
+  </body>
+</html>
