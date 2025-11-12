@@ -1,32 +1,32 @@
-## Design Brief for the Toolkit
+# Design Brief for the Toolkit
 
-### Title: Digital Proficiency Kit – Web Technologies (HTML, CSS, JavaScript)
+## Title: Digital Proficiency Kit – Web Technologies (HTML, CSS, JavaScript)
 
-### Purpose:
+## Purpose:
 
 Provide teachers and students with structured learning resources and environments that build digital competences (per the competence map) through creative web‐based tasks in a STEAM context.
 
-### Target users:
+## Target users:
 
 - _Teacher persona_ (e.g., Science/Math teacher with little coding background)
 - _Student persona_ (e.g., aged 13-15, curious about digital creation, minimal prior experience)
   (Full set of user personas to be developed based on baseline study)
 
-### Core learning outcomes (selected examples linked to competence map):
+## Core learning outcomes (selected examples linked to competence map):
 
 - Teacher will **design and deploy** a simple web page using HTML and CSS, thereby achieving 3.1 and 1.1 competence targets.
 - Student will **write a JavaScript script** that responds to user input and manipulates the DOM, addressing 3.4 and 5.3.
 - Both teacher & student will **evaluate the credibility** of online resources before integrating them into a web project (1.2).
 - Student will **collaborate** with peers online to share and refine a web‐based STEAM artefact (2.4).
 
-### Pedagogical approach:
+## Pedagogical approach:
 
 - Use **learning-by-making**: learners create meaningful artefacts (web pages, interactive visuals) rather than only reading theory.
 - Offer **progressive scaffolding**: beginners start with guided templates; move toward open-ended creative tasks.
 - Include **reflection and self-evaluation**: learners map their artefacts to the competence map and reflect on growth.
 - Emphasise **transfer to STEAM domains**: tasks integrate science, design, entrepreneurship themes to connect coding with real‐world relevance.
 
-### Technical & usability requirements:
+## Technical & usability requirements:
 
 - All modules run **in browser** (no installation required) to ensure access across partner schools.
 - Code samples use **vanilla HTML, CSS, JavaScript** to minimise dependency overhead and maximise transparency.
@@ -35,9 +35,9 @@ Provide teachers and students with structured learning resources and environment
 - Modular folder and file structure to support localisation and translation.
 - Version control via GitHub with clear branching strategy for updates and partner contributions.
 
-### Content design:
+## Content design:
 
-- 7 Modules (as previously outlined) each with:
+- 7 Modules each with:
 
   - Learning outcomes mapped to competence map
   - Tutorial materials (text + video)
@@ -47,21 +47,21 @@ Provide teachers and students with structured learning resources and environment
 - Assessment rubrics linked to competence levels (e.g., from A0→B1) so progress can be measured.
 - Repository organised with a clear directory structure to support maintenance and localisation.
 
-### Feedback and evaluation:
+## Feedback and evaluation:
 
 - Pilot in at least 3 partner schools with teacher and student groups.
 - Collect both quantitative data (self‐assessments, task completion rates) and qualitative feedback (focus groups, teacher interviews).
 - Use analytics (e.g., time spent, task success rates) to inform refinements.
 - After pilot, toolkit version 1.0 refined and published as final version 2.0 under CC BY licence.
 
-### Sustainability and dissemination:
+## Sustainability and dissemination:
 
 - Host toolkit on GitHub Pages with open access.
 - Provide translation templates for all modules to local languages of partners.
 - Encourage teacher communities of practice to adapt and extend tasks.
 - Prepare webinar/tutorial for partner schools and wider audience to raise awareness of the kit.
 
-### Timeline (illustrative):
+## Timeline (illustrative):
 
 - Month 1-2: Baseline data collection, competence map finalisation
 - Month 3: User persona development, design brief approval
@@ -70,7 +70,7 @@ Provide teachers and students with structured learning resources and environment
 - Month 13-15: Pilot testing
 - Month 16-18: Refinement and final release
 
-### References:
+## References:
 
 [1]: https://joint-research-centre.ec.europa.eu/projects-and-activities/education-and-training/digital-transformation-education/digital-competence-framework-citizens-digcomp/digcomp-framework_en?utm_source=chatgpt.com "DigComp Framework - The Joint Research Centre"
 [2]: https://joint-research-centre.ec.europa.eu/projects-and-activities/education-and-training/digital-transformation-education/digital-competence-framework-citizens-digcomp_en?utm_source=chatgpt.com "Digital Competence Framework for Citizens (DigComp)"

@@ -1,4 +1,4 @@
-## Competence Map
+# Competence Map
 
 **Goal:** Provide a clear reference of digital competences (from DigComp 2.2) that the kit will address, showing current baseline level and target level for both teachers and students.
 

@@ -1,4 +1,4 @@
-## 1. Conceptual Framework
+# Conceptual Framework
 
 **Purpose:**
 To create a modular, open-access learning environment that strengthens teachersâ€™ and studentsâ€™ digital competence through creative web development tasks built on **HTML, CSS, and JavaScript**.
@@ -12,7 +12,7 @@ To create a modular, open-access learning environment that strengthens teachersâ
 
 ---
 
-## 2. Development Phases
+## Development Phases
 
 | Phase                                        | Description                                                                                                        | Expected Output                                           |
 | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------- |
@@ -26,7 +26,7 @@ To create a modular, open-access learning environment that strengthens teachersâ
 
 ---
 
-## 3. Toolkit Architecture
+## Toolkit Architecture
 
 **A. Structure of Modules**
 
@@ -50,7 +50,7 @@ Each module includes:
 
 ---
 
-## 4. Technical Requirements
+## Technical Requirements
 
 - All resources run in the **browser**, requiring only a text editor and modern web browser.
 - Example projects hosted on **GitHub Pages** for transparency and reuse.
@@ -82,7 +82,7 @@ digital-proficiency-kit/
 
 ---
 
-## 5. Evaluation and Validation
+## Evaluation and Validation
 
 **Indicators:**
 
