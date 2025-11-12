@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Green Actions Tracker</title>
+    <style>
+      body {
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+        margin: 1rem;
+      }
+      .card {
+        border: 1px solid #e5e7eb;
+        border-radius: 8px;
+        padding: 1rem;
+        max-width: 32rem;
+      }
+      .score {
+        font-weight: 700;
+      }
+      button {
+        margin-top: 0.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h1>Green Actions</h1>
+      <ul id="actions">
+        <li>
+          <label
+            ><input type="checkbox" value="cycle" /> Cycled or walked</label
+          >
+        </li>
+        <li>
+          <label
+            ><input type="checkbox" value="recycle" /> Recycled waste</label
+          >
+        </li>
+        <li>
+          <label><input type="checkbox" value="water" /> Saved water</label>
+        </li>
+      </ul>
+      <p>Score: <span id="score" class="score">0</span></p>
+      <button id="reset">Reset</button>
+    </div>
+
+    <script>
+      const KEY = "green-actions-v1";
+      const list = document.querySelectorAll('#actions input[type="checkbox"]');
+      const scoreEl = document.getElementById("score");
+      const resetBtn = document.getElementById("reset");
+
+      function load() {
+        try {
+          return JSON.parse(localStorage.getItem(KEY)) || {};
+        } catch {
+          return {};
+        }
+      }
+      function save(state) {
+        localStorage.setItem(KEY, JSON.stringify(state));
+      }
+
+      function update() {
+        const state = {};
+        let score = 0;
+        list.forEach((cb) => {
+          state[cb.value] = cb.checked;
+          if (cb.checked) score++;
+        });
+        scoreEl.textContent = score;
+        save(state);
+      }
+
+      function reset() {
+        list.forEach((cb) => (cb.checked = false));
+        update();
+      }
+
+      // init
+      const state = load();
+      list.forEach((cb) => {
+        cb.checked = !!state[cb.value];
+        cb.addEventListener("change", update);
+      });
+      resetBtn.addEventListener("click", reset);
+      update();
+    </script>
+  </body>
+</html>
