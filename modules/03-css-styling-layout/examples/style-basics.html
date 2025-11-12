@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CSS Basics Example</title>
+    <style>
+      :root {
+        --bg: #ffffff;
+        --text: #111827;
+        --muted: #6b7280;
+        --primary: #2563eb;
+      }
+      html {
+        box-sizing: border-box;
+      }
+      *,
+      *::before,
+      *::after {
+        box-sizing: inherit;
+      }
+      body {
+        margin: 0;
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+        color: var(--text);
+        background: var(--bg);
+        line-height: 1.6;
+      }
+      header,
+      main,
+      footer {
+        max-width: 60rem;
+        margin: 0 auto;
+        padding: 1rem;
+      }
+      header {
+        border-bottom: 1px solid #e5e7eb;
+      }
+      h1 {
+        font-size: 2rem;
+        margin: 0.5rem 0;
+      }
+      nav a {
+        color: var(--primary);
+        text-decoration: none;
+        margin-right: 0.75rem;
+      }
+      nav a:hover,
+      nav a:focus {
+        text-decoration: underline;
+      }
+      .card {
+        border: 1px solid #e5e7eb;
+        border-radius: 8px;
+        padding: 1rem;
+        margin: 1rem 0;
+      }
+      .muted {
+        color: var(--muted);
+      }
+      @media (max-width: 640px) {
+        h1 {
+          font-size: 1.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Styled Page</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section id="about" class="card">
+        <h2>About</h2>
+        <p class="muted">
+          This section demonstrates basic typography and spacing.
+        </p>
+      </section>
+      <section id="projects" class="card">
+        <h2>Projects</h2>
+        <ul>
+          <li>Project A</li>
+          <li>Project B</li>
+        </ul>
+      </section>
+    </main>
+    <footer class="card">
+      <p>&copy; 2025 Example Student</p>
+    </footer>
+  </body>
+</html>
