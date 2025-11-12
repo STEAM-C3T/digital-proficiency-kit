@@ -28,15 +28,15 @@ Its structure and examples are designed to be easily adaptable for classroom, se
 
 ## Toolkit Structure
 
-| Module                     | Focus                                  | Example Outcome                         |
-| -------------------------- | -------------------------------------- | --------------------------------------- |
-| 1. Introduction to the Web | How websites work, file structure      | Simple webpage using semantic HTML      |
-| 2. HTML Foundations        | Content hierarchy, accessibility       | Student portfolio page                  |
-| 3. CSS Styling and Layout  | Typography, colours, responsive design | Styled project site for a science topic |
-| 4. JavaScript Essentials   | Variables, events, DOM manipulation    | Interactive calculator or animation     |
-| 5. Data and Visualization  | Displaying data with charts or canvas  | Environmental data dashboard            |
-| 6. Creative Web Projects   | Art and computation                    | Digital poster or mini-game             |
-| 7. Green STEAM Challenge   | Sustainable innovation with code       | Small web app promoting an SDG theme    |
+| Module | Focus | Example Outcome |
+| ------ | ----- | ---------------- |
+| [1. Introduction to the Web](./modules/01-introduction-to-the-web/README.md) | How websites work, file structure | Simple webpage using semantic HTML |
+| [2. HTML Foundations](./modules/02-html-foundations/README.md) | Content hierarchy, accessibility | Student topic/portfolio page |
+| [3. CSS Styling & Layout](./modules/03-css-styling-layout/README.md) | Typography, colours, responsive design | Styled and responsive site |
+| [4. JavaScript Essentials](./modules/04-javascript-essentials/README.md) | Variables, events, DOM manipulation | Interactive UI component |
+| [5. Data & Visualization](./modules/05-data-visualization/README.md) | Displaying data with charts/canvas | Small data chart/visual |
+| [6. Creative Web Projects](./modules/06-creative-web-projects/README.md) | Art and computation | Digital poster or generative piece |
+| [7. Green STEAM Challenge](./modules/07-green-steam-challenge/README.md) | Sustainable innovation with code | Small SDG‑themed mini‑app |
 
 Each module includes:
 
@@ -51,26 +51,27 @@ Each module includes:
 
 ```
 digital-proficiency-kit/
-│
 ├── modules/
-│   ├── 01-html-basics/
-│   ├── 02-css-layout/
-│   ├── 03-js-fundamentals/
-│   ├── 04-data-visualization/
-│   ├── 05-green-challenge/
-│
-├── assets/
-│   ├── images/
-│   ├── sample-data/
-│   └── style/
-│
+│   ├── 01-introduction-to-the-web/
+│   ├── 02-html-foundations/
+│   ├── 03-css-styling-layout/
+│   ├── 04-javascript-essentials/
+│   ├── 05-data-visualization/
+│   ├── 06-creative-web-projects/
+│   └── 07-green-steam-challenge/
 ├── docs/
-│   ├── teacher-guide.md
-│   ├── digcomp-mapping.md
-│   └── assessment-rubric.md
-│
-└── index.html
+│   ├── modules.md
+│   └── conceptual-framework.md
+├── assets/
+│   └── …
+└── README.md
 ```
+
+## Get Started
+
+- Browse the module overviews in [docs/modules.md](./docs/modules.md), or jump straight to the [modules index](./modules/README.md).
+- Open any example `.html` file in your browser to run it locally (no build tools).
+- Use each module’s README to find Units, Examples, Tasks, and Teacher Notes.
 
 ---
 
