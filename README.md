@@ -3,7 +3,7 @@
 ### _STEAM: From Campus to Classroom, Crafting Tomorrow (STEAM-C3T)_
 
 **Erasmus+ Cooperation Partnerships in School Education (KA220-SCH)**
-Developed by **Tallinn University, School of Digital Technologies**
+Developed by **Tallinn University, Haapsalu College**
 
 ---
 
