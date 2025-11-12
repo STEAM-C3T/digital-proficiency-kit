@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Todo List</title>
+    <style>
+      body {
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+        margin: 1rem;
+      }
+      .app {
+        max-width: 32rem;
+        border: 1px solid #e5e7eb;
+        border-radius: 8px;
+        padding: 1rem;
+      }
+      .row {
+        display: flex;
+        gap: 0.5rem;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+      li {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #e5e7eb;
+        padding: 0.5rem 0;
+      }
+      .done {
+        text-decoration: line-through;
+        color: #6b7280;
+      }
+      .filters button[aria-pressed="true"] {
+        font-weight: 700;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="app" role="application">
+      <h1>Todos</h1>
+      <form id="addForm" class="row" aria-label="Add todo">
+        <label class="sr-only" for="newTodo">New todo</label>
+        <input id="newTodo" type="text" placeholder="What needs to be done?" />
+        <button type="submit">Add</button>
+      </form>
+      <div class="filters" role="group" aria-label="Filters">
+        <button data-filter="all" aria-pressed="true">All</button>
+        <button data-filter="active" aria-pressed="false">Active</button>
+        <button data-filter="done" aria-pressed="false">Done</button>
+      </div>
+      <ul id="list" aria-live="polite"></ul>
+    </div>
+
+    <script>
+      const form = document.getElementById("addForm");
+      const input = document.getElementById("newTodo");
+      const list = document.getElementById("list");
+      const filterButtons = document.querySelectorAll(".filters button");
+
+      let items = [];
+      let filter = "all";
+
+      function addItem(text) {
+        const id = crypto.randomUUID();
+        items.push({ id, text, done: false });
+        render();
+      }
+
+      function toggleItem(id) {
+        items = items.map((it) =>
+          it.id === id ? { ...it, done: !it.done } : it
+        );
+        render();
+      }
+
+      function setFilter(next) {
+        filter = next;
+        filterButtons.forEach((btn) =>
+          btn.setAttribute(
+            "aria-pressed",
+            String(btn.dataset.filter === filter)
+          )
+        );
+        render();
+      }
+
+      function render() {
+        const visible = items.filter(
+          (it) =>
+            filter === "all" ||
+            (filter === "active" && !it.done) ||
+            (filter === "done" && it.done)
+        );
+        list.innerHTML = "";
+        visible.forEach((it) => {
+          const li = document.createElement("li");
+          const label = document.createElement("label");
+          const checkbox = document.createElement("input");
+          checkbox.type = "checkbox";
+          checkbox.checked = it.done;
+          checkbox.addEventListener("change", () => toggleItem(it.id));
+          label.appendChild(checkbox);
+          const span = document.createElement("span");
+          span.textContent = it.text;
+          if (it.done) span.classList.add("done");
+          label.appendChild(span);
+          li.appendChild(label);
+          list.appendChild(li);
+        });
+      }
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        const text = input.value.trim();
+        if (!text) return;
+        addItem(text);
+        input.value = "";
+        input.focus();
+      });
+
+      filterButtons.forEach((btn) =>
+        btn.addEventListener("click", () => setFilter(btn.dataset.filter))
+      );
+
+      render();
+    </script>
+  </body>
+</html>

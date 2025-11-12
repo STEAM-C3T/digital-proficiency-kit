@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DOM Interactions</title>
+    <style>
+      body {
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+        margin: 1rem;
+      }
+      .counter {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+      button {
+        padding: 0.5rem 0.75rem;
+      }
+      #count {
+        min-width: 2ch;
+        display: inline-block;
+        text-align: right;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Counter</h1>
+    <div class="counter">
+      <button id="dec" aria-label="decrease">−</button>
+      <span id="count" aria-live="polite">0</span>
+      <button id="inc" aria-label="increase">+</button>
+    </div>
+
+    <script>
+      const countEl = document.querySelector("#count");
+      const incBtn = document.querySelector("#inc");
+      const decBtn = document.querySelector("#dec");
+      let count = 0;
+
+      function render() {
+        countEl.textContent = count;
+      }
+      incBtn.addEventListener("click", () => {
+        count++;
+        render();
+      });
+      decBtn.addEventListener("click", () => {
+        count = Math.max(0, count - 1);
+        render();
+      });
+      render();
+    </script>
+  </body>
+</html>
