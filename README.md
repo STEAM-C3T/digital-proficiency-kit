@@ -58,13 +58,28 @@ digital-proficiency-kit/
 │   ├── 04-javascript-essentials/
 │   ├── 05-data-visualization/
 │   ├── 06-creative-web-projects/
-│   └── 07-green-steam-challenge/
+│   ├── 07-green-steam-challenge/
+│   └── README.md
 ├── docs/
-│   ├── modules.md
-│   └── conceptual-framework.md
+│   ├── conceptual-framework.md
+│   ├── competence-map.md
+│   ├── curriculum-map.md
+│   ├── design-brief.md
+│   └── modules.md
 ├── assets/
 │   └── …
+├── CHANGELOG.md
 └── README.md
+```
+
+Example module folder layout:
+
+```
+modules/02-html-foundations/
+├── units/          # Unit guides for the module
+├── examples/       # Minimal, runnable HTML/CSS/JS examples
+├── tasks/          # Guided practice and independent tasks
+└── teacher-notes/  # Adaptation, assessment, accessibility notes
 ```
 
 ## Get Started
