@@ -28,15 +28,15 @@ Its structure and examples are designed to be easily adaptable for classroom, se
 
 ## Toolkit Structure
 
-| Module | Focus | Example Outcome |
-| ------ | ----- | ---------------- |
-| [1. Introduction to the Web](./modules/01-introduction-to-the-web/README.md) | How websites work, file structure | Simple webpage using semantic HTML |
-| [2. HTML Foundations](./modules/02-html-foundations/README.md) | Content hierarchy, accessibility | Student topic/portfolio page |
-| [3. CSS Styling & Layout](./modules/03-css-styling-layout/README.md) | Typography, colours, responsive design | Styled and responsive site |
-| [4. JavaScript Essentials](./modules/04-javascript-essentials/README.md) | Variables, events, DOM manipulation | Interactive UI component |
-| [5. Data & Visualization](./modules/05-data-visualization/README.md) | Displaying data with charts/canvas | Small data chart/visual |
-| [6. Creative Web Projects](./modules/06-creative-web-projects/README.md) | Art and computation | Digital poster or generative piece |
-| [7. Green STEAM Challenge](./modules/07-green-steam-challenge/README.md) | Sustainable innovation with code | Small SDG‑themed mini‑app |
+| Module                                                                       | Focus                                  | Example Outcome                    |
+| ---------------------------------------------------------------------------- | -------------------------------------- | ---------------------------------- |
+| [1. Introduction to the Web](./modules/01-introduction-to-the-web/README.md) | How websites work, file structure      | Simple webpage using semantic HTML |
+| [2. HTML Foundations](./modules/02-html-foundations/README.md)               | Content hierarchy, accessibility       | Student topic/portfolio page       |
+| [3. CSS Styling & Layout](./modules/03-css-styling-layout/README.md)         | Typography, colours, responsive design | Styled and responsive site         |
+| [4. JavaScript Essentials](./modules/04-javascript-essentials/README.md)     | Variables, events, DOM manipulation    | Interactive UI component           |
+| [5. Data & Visualization](./modules/05-data-visualization/README.md)         | Displaying data with charts/canvas     | Small data chart/visual            |
+| [6. Creative Web Projects](./modules/06-creative-web-projects/README.md)     | Art and computation                    | Digital poster or generative piece |
+| [7. Green STEAM Challenge](./modules/07-green-steam-challenge/README.md)     | Sustainable innovation with code       | Small SDG‑themed mini‑app          |
 
 Each module includes:
 
