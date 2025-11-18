@@ -70,6 +70,19 @@ Represent small datasets visually using Canvas or SVG. Focus on mapping values t
 - Use the visualization rubric (Teacher Toolkit) for clarity, correctness, and accessibility.
 - Evidence: HTML/JS files, screenshot of chart, and reflection notes.
 
+## Learning Materials
+
+Comprehensive instructional materials for teachers and students are available in the [Learning Materials repository](https://github.com/STEAM-C3T/dpk-learning-materials/tree/main/modules/05-data-visualization):
+
+- **[Module 05 Overview Deck](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/05-data-visualization/module-deck/module-05-deck.md):** Marp slides with learning outcomes, big ideas, demonstrations, and speaker notes
+- **Unit 5.1 Materials:**
+  - [Lesson deck](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/05-data-visualization/units/5.1-canvas-basics/deck/unit-5.1-deck.md)
+  - [Step-by-step tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/05-data-visualization/units/5.1-canvas-basics/tutorial/unit-5.1-tutorial.md)
+  - [Student workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/05-data-visualization/units/5.1-canvas-basics/workbook/unit-5.1-student-workbook.md)
+  - [Teacher annotated workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/05-data-visualization/units/5.1-canvas-basics/workbook/unit-5.1-teacher-annotated.md) (with timing, differentiation, answer keys)
+
+**For Teachers:** These materials are specifically designed for novice teachers with little or no programming experience, providing scaffolded lesson plans, common misconceptions, and classroom-ready slides.
+
 ## Teacher Toolkit Links
 
 - [Module overview](https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/05-data-visualization/module-overview.md)

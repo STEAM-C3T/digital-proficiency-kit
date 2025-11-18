@@ -71,6 +71,19 @@ Apply your skills to build a small sustainability‑focused web app linked to SD
 - Use the project rubric (Teacher Toolkit) for purpose, usability, and ethics.
 - Evidence: HTML/JS files, demo notes, and reflection on impact.
 
+## Learning Materials
+
+Comprehensive instructional materials for teachers and students are available in the [Learning Materials repository](https://github.com/STEAM-C3T/dpk-learning-materials/tree/main/modules/07-green-steam-challenge):
+
+- **[Module 07 Overview Deck](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/07-green-steam-challenge/module-deck/module-07-deck.md):** Marp slides with learning outcomes, big ideas, demonstrations, and speaker notes
+- **Unit 7.1 Materials:**
+  - [Lesson deck](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/07-green-steam-challenge/units/7.1-green-mini-app/deck/unit-7.1-deck.md)
+  - [Step-by-step tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/07-green-steam-challenge/units/7.1-green-mini-app/tutorial/unit-7.1-tutorial.md)
+  - [Student workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/07-green-steam-challenge/units/7.1-green-mini-app/workbook/unit-7.1-student-workbook.md)
+  - [Teacher annotated workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/07-green-steam-challenge/units/7.1-green-mini-app/workbook/unit-7.1-teacher-annotated.md) (with timing, differentiation, answer keys)
+
+**For Teachers:** These materials are specifically designed for novice teachers with little or no programming experience, providing scaffolded lesson plans, common misconceptions, and classroom-ready slides.
+
 ## Teacher Toolkit Links
 
 - [Module overview](https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/07-green-steAM-challenge/module-overview.md)

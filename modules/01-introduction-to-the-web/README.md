@@ -87,7 +87,11 @@ Comprehensive instructional materials for teachers and students are available in
   - [Step-by-step tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/01-introduction-to-the-web/units/1.1-what-is-the-web/tutorial/unit-1.1-tutorial.md)
   - [Student workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/01-introduction-to-the-web/units/1.1-what-is-the-web/workbook/unit-1.1-student-workbook.md)
   - [Teacher annotated workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/01-introduction-to-the-web/units/1.1-what-is-the-web/workbook/unit-1.1-teacher-annotated.md) (with timing, differentiation, answer keys)
-- **Unit 1.2 Materials:** (In development; structure available)
+- **Unit 1.2 Materials:**
+  - [Lesson deck](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/01-introduction-to-the-web/units/1.2-basic-structure/unit-1.2-deck.md)
+  - [Step-by-step tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/01-introduction-to-the-web/units/1.2-basic-structure/tutorial/unit-1.2-tutorial.md)
+  - [Student workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/01-introduction-to-the-web/units/1.2-basic-structure/workbook/unit-1.2-student-workbook.md)
+  - [Teacher annotated workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/01-introduction-to-the-web/units/1.2-basic-structure/workbook/unit-1.2-teacher-annotated.md) (with timing, differentiation, answer keys)
 
 **For Teachers:** These materials are specifically designed for novice teachers with little or no programming experience, providing scaffolded lesson plans, common misconceptions, and classroom-ready slides.
 

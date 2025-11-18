@@ -69,6 +69,19 @@ Explore generative visuals and interactive posters by combining HTML/CSS with Ja
 - Use the creative project rubric (Teacher Toolkit) for expression, control, and accessibility.
 - Evidence: HTML/JS files, two iteration screenshots, and summary notes.
 
+## Learning Materials
+
+Comprehensive instructional materials for teachers and students are available in the [Learning Materials repository](https://github.com/STEAM-C3T/dpk-learning-materials/tree/main/modules/06-creative-web-projects):
+
+- **[Module 06 Overview Deck](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/06-creative-web-projects/module-deck/module-06-deck.md):** Marp slides with learning outcomes, big ideas, demonstrations, and speaker notes
+- **Unit 6.1 Materials:**
+  - [Lesson deck](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/06-creative-web-projects/units/6.1-generative-art/deck/unit-6.1-deck.md)
+  - [Step-by-step tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/06-creative-web-projects/units/6.1-generative-art/tutorial/unit-6.1-tutorial.md)
+  - [Student workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/06-creative-web-projects/units/6.1-generative-art/workbook/unit-6.1-student-workbook.md)
+  - [Teacher annotated workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/06-creative-web-projects/units/6.1-generative-art/workbook/unit-6.1-teacher-annotated.md) (with timing, differentiation, answer keys)
+
+**For Teachers:** These materials are specifically designed for novice teachers with little or no programming experience, providing scaffolded lesson plans, common misconceptions, and classroom-ready slides.
+
 ## Teacher Toolkit Links
 
 - [Module overview](https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/06-creative-web-projects/module-overview.md)
