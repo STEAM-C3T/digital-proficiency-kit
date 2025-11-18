@@ -1,0 +1,16 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "../teacher-toolkit"
+    },
+    {
+      "path": "../STEAM"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "digital-proficiency-kit"
+  }
+}
