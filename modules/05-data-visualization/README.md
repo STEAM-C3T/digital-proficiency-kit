@@ -72,10 +72,10 @@ Represent small datasets visually using Canvas or SVG. Focus on mapping values t
 
 ## Teacher Toolkit Links
 
-- Module overview: https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/05-data-visualization/module-overview.md
+- [Module overview](https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/05-data-visualization/module-overview.md)
 - Lesson plans:
-  - https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/05-data-visualization/unit-5.1-lesson-plan.md
-- Assessment rubric: https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/05-data-visualization/assessment-rubric-05.md
+  - [Unit 5.1 – Lesson plan](https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/05-data-visualization/unit-5.1-lesson-plan.md)
+- [Assessment rubric](https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/05-data-visualization/assessment-rubric-05.md)
 
 ## Quick Open (macOS)
 

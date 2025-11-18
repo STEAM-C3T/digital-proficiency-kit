@@ -73,10 +73,10 @@ Apply your skills to build a small sustainability‑focused web app linked to SD
 
 ## Teacher Toolkit Links
 
-- Module overview: https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/07-green-steAM-challenge/module-overview.md
+- [Module overview](https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/07-green-steAM-challenge/module-overview.md)
 - Lesson plans:
-  - https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/07-green-steAM-challenge/unit-7.1-lesson-plan.md
-- Assessment rubric: https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/07-green-steAM-challenge/assessment-rubric-07.md
+  - [Unit 7.1 – Lesson plan](https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/07-green-steAM-challenge/unit-7.1-lesson-plan.md)
+- [Assessment rubric](https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/07-green-steAM-challenge/assessment-rubric-07.md)
 
 ## Quick Open (macOS)
 

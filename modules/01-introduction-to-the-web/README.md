@@ -79,11 +79,11 @@ This module introduces how the web works and how to create a minimal, semantic H
 
 ## Teacher Toolkit Links
 
-- Module overview: https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/01-introduction-to-the-web/module-overview.md
+- [Module overview](https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/01-introduction-to-the-web/module-overview.md)
 - Lesson plans:
-  - https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/01-introduction-to-the-web/unit-1.1-lesson-plan.md
-  - https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/01-introduction-to-the-web/unit-1.2-lesson-plan.md
-- Assessment rubric: https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/01-introduction-to-the-web/assessment-rubric-01.md
+  - [Unit 1.1 – Lesson plan](https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/01-introduction-to-the-web/unit-1.1-lesson-plan.md)
+  - [Unit 1.2 – Lesson plan](https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/01-introduction-to-the-web/unit-1.2-lesson-plan.md)
+- [Assessment rubric](https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/01-introduction-to-the-web/assessment-rubric-01.md)
 
 ## Quick Open (macOS)
 

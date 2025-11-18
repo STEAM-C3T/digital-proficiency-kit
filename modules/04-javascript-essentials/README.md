@@ -74,11 +74,11 @@ Add interactivity with JavaScript by handling events and updating the DOM. Build
 
 ## Teacher Toolkit Links
 
-- Module overview: https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/04-javascript-essentials/module-overview.md
+- [Module overview](https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/04-javascript-essentials/module-overview.md)
 - Lesson plans:
-  - https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/04-javascript-essentials/unit-4.1-lesson-plan.md
-  - https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/04-javascript-essentials/unit-4.2-lesson-plan.md
-- Assessment rubric: https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/04-javascript-essentials/assessment-rubric-04.md
+  - [Unit 4.1 – Lesson plan](https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/04-javascript-essentials/unit-4.1-lesson-plan.md)
+  - [Unit 4.2 – Lesson plan](https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/04-javascript-essentials/unit-4.2-lesson-plan.md)
+- [Assessment rubric](https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/04-javascript-essentials/assessment-rubric-04.md)
 
 ## Quick Open (macOS)
 

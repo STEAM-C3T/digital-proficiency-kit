@@ -76,11 +76,11 @@ Style content with typography and colour, then build responsive layouts with Gri
 
 ## Teacher Toolkit Links
 
-- Module overview: https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/03-css-styling-layout/module-overview.md
+- [Module overview](https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/03-css-styling-layout/module-overview.md)
 - Lesson plans:
-  - https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/03-css-styling-layout/unit-3.1-lesson-plan.md
-  - https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/03-css-styling-layout/unit-3.2-lesson-plan.md
-- Assessment rubric: https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/03-css-styling-layout/assessment-rubric-03.md
+  - [Unit 3.1 – Lesson plan](https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/03-css-styling-layout/unit-3.1-lesson-plan.md)
+  - [Unit 3.2 – Lesson plan](https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/03-css-styling-layout/unit-3.2-lesson-plan.md)
+- [Assessment rubric](https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/03-css-styling-layout/assessment-rubric-03.md)
 
 ## Quick Open (macOS)
 

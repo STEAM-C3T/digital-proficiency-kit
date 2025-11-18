@@ -33,5 +33,6 @@ The format is based on Keep a Changelog, and this project adheres to Semantic Ve
 
 - Clarified how to run examples in the browser and reinforced progressive enhancement and accessibility expectations across modules.
 - Tidied `modules/README.md`: removed duplicate content and added concise summaries with links for Modules 01–07.
+- Converted plain URLs to descriptive Markdown links across module READMEs and the modules index.
 - Added cross-links from each module README to corresponding Teacher Toolkit module overviews, lesson plans, and rubrics.
 - Added "Quick Open (macOS)" commands to each module README for opening example files directly.

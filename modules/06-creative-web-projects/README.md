@@ -71,10 +71,10 @@ Explore generative visuals and interactive posters by combining HTML/CSS with Ja
 
 ## Teacher Toolkit Links
 
-- Module overview: https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/06-creative-web-projects/module-overview.md
+- [Module overview](https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/06-creative-web-projects/module-overview.md)
 - Lesson plans:
-  - https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/06-creative-web-projects/unit-6.1-lesson-plan.md
-- Assessment rubric: https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/06-creative-web-projects/assessment-rubric-06.md
+  - [Unit 6.1 – Lesson plan](https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/06-creative-web-projects/unit-6.1-lesson-plan.md)
+- [Assessment rubric](https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/06-creative-web-projects/assessment-rubric-06.md)
 
 ## Quick Open (macOS)
 

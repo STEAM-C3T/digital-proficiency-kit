@@ -74,11 +74,11 @@ Build well‑structured, accessible content using semantic HTML. Learn headings,
 
 ## Teacher Toolkit Links
 
-- Module overview: https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/02-html-foundations/module-overview.md
+- [Module overview](https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/02-html-foundations/module-overview.md)
 - Lesson plans:
-  - https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/02-html-foundations/unit-2.1-lesson-plan.md
-  - https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/02-html-foundations/unit-2.2-lesson-plan.md
-- Assessment rubric: https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/02-html-foundations/assessment-rubric-02.md
+  - [Unit 2.1 – Lesson plan](https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/02-html-foundations/unit-2.1-lesson-plan.md)
+  - [Unit 2.2 – Lesson plan](https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/02-html-foundations/unit-2.2-lesson-plan.md)
+- [Assessment rubric](https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/02-html-foundations/assessment-rubric-02.md)
 
 ## Quick Open (macOS)
 
