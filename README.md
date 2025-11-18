@@ -91,6 +91,27 @@ modules/02-html-foundations/
 
 ---
 
+### Quick Open Tips (macOS)
+
+Open any example directly in your default browser using Terminal:
+
+```zsh
+# Replace the path with any example file you want to open
+open ./modules/01-introduction-to-the-web/examples/minimal-page.html
+open ./modules/02-html-foundations/examples/student-survey.html
+open ./modules/03-css-styling-layout/examples/style-basics.html
+open ./modules/03-css-styling-layout/examples/responsive-layout.html
+open ./modules/04-javascript-essentials/examples/dom-interactions.html
+open ./modules/04-javascript-essentials/examples/todo-list.html
+open ./modules/05-data-visualization/examples/canvas-bar-chart.html
+open ./modules/06-creative-web-projects/examples/generative-art.html
+open ./modules/07-green-steam-challenge/examples/green-mini-app.html
+```
+
+Tip: You can also double‑click any `.html` file in Finder to open it.
+
+---
+
 ## Pedagogical Approach
 
 The toolkit is built upon three principles:
