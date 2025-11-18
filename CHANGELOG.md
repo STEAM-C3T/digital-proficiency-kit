@@ -21,3 +21,17 @@ The format is based on Keep a Changelog, and this project adheres to Semantic Ve
 ### Notes
 
 - Migrated Modules 01–02 into standardized structure: added `units/`, `examples/`, `tasks/`, `teacher-notes/`, moved existing unit files, and added basic examples/tasks/teacher notes.
+
+## [Unreleased] – 2025-11-18
+
+### Added
+
+- Expanded module documentation for Modules 01–07: added learning outcomes, prerequisites, estimated time, materials, step‑by‑step student instructions, module‑level acceptance criteria, accessibility checklists, differentiation/extension ideas, and assessment pointers.
+- Top-level README: added "Quick Open Tips (macOS)" section with commands to open example files directly in the browser.
+
+### Changed
+
+- Clarified how to run examples in the browser and reinforced progressive enhancement and accessibility expectations across modules.
+- Tidied `modules/README.md`: removed duplicate content and added concise summaries with links for Modules 01–07.
+- Added cross-links from each module README to corresponding Teacher Toolkit module overviews, lesson plans, and rubrics.
+- Added "Quick Open (macOS)" commands to each module README for opening example files directly.
