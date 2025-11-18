@@ -130,6 +130,34 @@ The toolkit is built upon three principles:
 
 ---
 
+## Related Repositories
+
+The Digital Proficiency Kit is part of a three-repository ecosystem:
+
+### **1. Digital Proficiency Kit** (this repository)
+
+Runnable code examples, tasks, and student-facing module guides.
+
+### **2. [Teacher Toolkit](https://github.com/STEAM-C3T/teacher-toolkit)**
+
+Lesson plans, assessment rubrics, module overviews, and professional development resources.
+
+### **3. [Learning Materials](https://github.com/STEAM-C3T/dpk-learning-materials)**
+
+Comprehensive instructional materials for novice teachers, including:
+
+- **Marp slide decks** for module overviews and unit lessons
+- **Step-by-step tutorials** with code-along examples and debugging guidance
+- **Student workbooks** with scaffolded practice and reflection prompts
+- **Teacher-annotated workbooks** with timing, differentiation strategies, and answer keys
+
+**Navigation:**
+
+- From DPK module READMEs → links to Learning Materials decks and tutorials
+- From Learning Materials → links back to DPK code examples and Teacher Toolkit rubrics
+
+---
+
 ## Contribution and Collaboration
 
 Educators and partners are encouraged to adapt, translate, and extend the toolkit.

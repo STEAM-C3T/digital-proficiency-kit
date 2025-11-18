@@ -28,6 +28,15 @@ The format is based on Keep a Changelog, and this project adheres to Semantic Ve
 
 - Expanded module documentation for Modules 01–07: added learning outcomes, prerequisites, estimated time, materials, step‑by‑step student instructions, module‑level acceptance criteria, accessibility checklists, differentiation/extension ideas, and assessment pointers.
 - Top-level README: added "Quick Open Tips (macOS)" section with commands to open example files directly in the browser.
+- **Related Repositories section** in main README documenting the three-repository ecosystem (Digital Proficiency Kit, Teacher Toolkit, Learning Materials).
+- **Learning Materials section** in Module 01 README with links to:
+  - Module overview deck (Marp slides)
+  - Unit 1.1 lesson deck, tutorial, student workbook, and teacher-annotated workbook
+  - Placeholder for Unit 1.2 materials
+
+### Changed
+
+- Module 01 README: reorganized to include new Learning Materials section before Teacher Toolkit Links section.
 
 ### Changed
 

@@ -8,6 +8,9 @@
     },
     {
       "path": "../STEAM"
+    },
+    {
+      "path": "../dpk-learning-materials"
     }
   ],
   "settings": {

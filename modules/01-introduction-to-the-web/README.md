@@ -77,6 +77,20 @@ This module introduces how the web works and how to create a minimal, semantic H
 - Use the module task rubric in the Teacher Toolkit to evaluate structure, accessibility, and reflection quality.
 - Evidence: student HTML file(s) and brief written reflections.
 
+## Learning Materials
+
+Comprehensive instructional materials for teachers and students are available in the [Learning Materials repository](https://github.com/STEAM-C3T/dpk-learning-materials/tree/main/modules/01-introduction-to-the-web):
+
+- **[Module 01 Overview Deck](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/01-introduction-to-the-web/module-deck/module-01-overview-deck.md):** Marp slides with learning outcomes, big ideas, demonstrations, and speaker notes
+- **Unit 1.1 Materials:**
+  - [Lesson deck](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/01-introduction-to-the-web/units/1.1-what-is-the-web/unit-1.1-deck.md)
+  - [Step-by-step tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/01-introduction-to-the-web/units/1.1-what-is-the-web/tutorial/unit-1.1-tutorial.md)
+  - [Student workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/01-introduction-to-the-web/units/1.1-what-is-the-web/workbook/unit-1.1-student-workbook.md)
+  - [Teacher annotated workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/01-introduction-to-the-web/units/1.1-what-is-the-web/workbook/unit-1.1-teacher-annotated.md) (with timing, differentiation, answer keys)
+- **Unit 1.2 Materials:** (In development; structure available)
+
+**For Teachers:** These materials are specifically designed for novice teachers with little or no programming experience, providing scaffolded lesson plans, common misconceptions, and classroom-ready slides.
+
 ## Teacher Toolkit Links
 
 - [Module overview](https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/01-introduction-to-the-web/module-overview.md)
