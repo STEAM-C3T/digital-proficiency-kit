@@ -11,6 +11,24 @@
         color: #e5e7eb;
         font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
       }
+      .controls {
+        position: fixed;
+        top: 1rem;
+        left: 1rem;
+        z-index: 1;
+        padding: 0.75rem;
+        background: #111827;
+        border: 1px solid #9ca3af;
+        border-radius: 0.5rem;
+      }
+      button {
+        padding: 0.5rem 0.75rem;
+        font: inherit;
+      }
+      :focus-visible {
+        outline: 3px solid #fbbf24;
+        outline-offset: 3px;
+      }
       canvas {
         display: block;
         width: 100vw;
@@ -19,10 +37,51 @@
     </style>
   </head>
   <body>
+    <div class="controls">
+      <button id="motion-toggle" type="button" aria-pressed="false">Pause animation</button>
+      <p id="motion-status" aria-live="polite"></p>
+    </div>
     <canvas id="c"></canvas>
     <script>
       const canvas = document.getElementById("c");
       const ctx = canvas.getContext("2d");
+      const motionToggle = document.getElementById("motion-toggle");
+      const motionStatus = document.getElementById("motion-status");
+      const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+      let isPaused = reducedMotion.matches;
+      let animationFrame = null;
+
+      function updateMotionControl(message = "") {
+        motionToggle.textContent = isPaused ? "Play animation" : "Pause animation";
+        motionToggle.setAttribute("aria-pressed", String(isPaused));
+        motionStatus.textContent = message;
+      }
+
+      motionToggle.addEventListener("click", () => {
+        isPaused = !isPaused;
+        if (isPaused && animationFrame !== null) {
+          cancelAnimationFrame(animationFrame);
+          animationFrame = null;
+        } else if (!isPaused && animationFrame === null) {
+          animationFrame = requestAnimationFrame(loop);
+        }
+        updateMotionControl(isPaused ? "Animation paused." : "Animation playing.");
+      });
+
+      reducedMotion.addEventListener("change", (event) => {
+        if (event.matches) {
+          isPaused = true;
+          if (animationFrame !== null) {
+            cancelAnimationFrame(animationFrame);
+            animationFrame = null;
+          }
+          updateMotionControl("Animation paused to respect your reduced-motion preference.");
+        }
+      });
+
+      updateMotionControl(
+        isPaused ? "Animation starts paused because reduced motion is enabled." : ""
+      );
 
       function resize() {
         canvas.width = innerWidth;
@@ -54,9 +113,11 @@
             ctx.fill();
           }
         }
-        requestAnimationFrame(loop);
+        animationFrame = requestAnimationFrame(loop);
       }
-      requestAnimationFrame(loop);
+      if (!isPaused) {
+        animationFrame = requestAnimationFrame(loop);
+      }
     </script>
   </body>
 </html>
