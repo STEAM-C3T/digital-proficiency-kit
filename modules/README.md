@@ -1,6 +1,6 @@
 # Modules
 
-This folder contains the learning modules of the Digital Proficiency Kit. Each module is browser‑only (no installs), accessible, and classroom‑ready with:
+This folder contains the learning modules of the Digital Proficiency Kit. Students can open and explore the runnable examples in a modern browser without installing software. Creating or editing files requires a text editor or an approved browser-based editor; some activities also use optional browser developer tools. Teacher module overviews list required and optional tools, preparation checks, and alternatives for restricted devices. The modules include:
 
 - Units (lesson content and templates)
 - Examples (runnable HTML/CSS/JS)
