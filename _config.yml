@@ -1,0 +1,26 @@
+title: Digital Proficiency Kit
+description: Browser-based STEAM learning resources for teachers and students.
+url: https://steam-c3t.github.io
+baseurl: /digital-proficiency-kit
+markdown: kramdown
+plugins:
+  - jekyll-relative-links
+  - jekyll-seo-tag
+relative_links:
+  enabled: true
+  collections: true
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+include:
+  - modules
+  - docs
+  - assets
+exclude:
+  - digital-proficiency-kit.code-workspace
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - CHANGELOG.md

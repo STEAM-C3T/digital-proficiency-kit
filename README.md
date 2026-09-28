@@ -1,5 +1,9 @@
 # Digital Proficiency Kit
 
+**Browse the published site:** <https://steam-c3t.github.io/digital-proficiency-kit/>. Source files and version history remain available here on GitHub.
+
+**Browse the published site:** <https://steam-c3t.github.io/digital-proficiency-kit/>. Source files and version history remain available here on GitHub.
+
 ### _STEAM: From Campus to Classroom, Crafting Tomorrow (STEAM-C3T)_
 
 **Erasmus+ Cooperation Partnerships in School Education (KA220-SCH)**
