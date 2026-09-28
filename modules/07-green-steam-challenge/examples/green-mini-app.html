@@ -41,8 +41,13 @@
           <label><input type="checkbox" value="water" /> Saved water</label>
         </li>
       </ul>
-      <p>Score: <span id="score" class="score">0</span></p>
-      <button id="reset">Reset</button>
+      <p>Actions selected: <span id="score" class="score">0</span></p>
+      <label>
+        <input id="remember" type="checkbox" /> Remember choices on this device
+      </label>
+      <p id="status" role="status" aria-live="polite">Choices are kept for this session unless you opt in to saving them.</p>
+      <button id="reset" type="button">Reset choices and saved data</button>
+      <p>Action count is for activity tracking only; it does not measure environmental impact.</p>
     </div>
 
     <script>
@@ -50,42 +55,83 @@
       const list = document.querySelectorAll('#actions input[type="checkbox"]');
       const scoreEl = document.getElementById("score");
       const resetBtn = document.getElementById("reset");
+      const rememberToggle = document.getElementById("remember");
+      const status = document.getElementById("status");
 
-      function load() {
+      function loadSavedChoices() {
         try {
-          return JSON.parse(localStorage.getItem(KEY)) || {};
+          const saved = localStorage.getItem(KEY);
+          return { available: true, state: saved === null ? null : JSON.parse(saved) };
         } catch {
-          return {};
+          return { available: false, state: null };
         }
       }
-      function save(state) {
-        localStorage.setItem(KEY, JSON.stringify(state));
+      function saveChoices(state) {
+        try {
+          localStorage.setItem(KEY, JSON.stringify(state));
+          return true;
+        } catch {
+          return false;
+        }
       }
 
       function update() {
         const state = {};
-        let score = 0;
+        let selectedCount = 0;
         list.forEach((cb) => {
           state[cb.value] = cb.checked;
-          if (cb.checked) score++;
+          if (cb.checked) selectedCount++;
         });
-        scoreEl.textContent = score;
-        save(state);
+        scoreEl.textContent = selectedCount;
+        if (rememberToggle.checked && !saveChoices(state)) {
+          rememberToggle.checked = false;
+          status.textContent = "Browser storage is unavailable. Choices will remain only until you leave or refresh this page.";
+        }
       }
 
       function reset() {
         list.forEach((cb) => (cb.checked = false));
-        update();
+        scoreEl.textContent = "0";
+        rememberToggle.checked = false;
+        try {
+          localStorage.removeItem(KEY);
+          status.textContent = "Choices and any saved data have been cleared.";
+        } catch {
+          status.textContent = "Choices are cleared on this page, but browser storage would not allow saved data to be removed.";
+        }
       }
 
-      // init
-      const state = load();
+      function rememberChoices() {
+        if (rememberToggle.checked) {
+          const saved = loadSavedChoices();
+          if (!saved.available) {
+            rememberToggle.checked = false;
+            status.textContent = "Browser storage is unavailable. Choices will remain only until you leave or refresh this page.";
+            return;
+          }
+          if (saved.state) {
+            list.forEach((cb) => {
+              cb.checked = Boolean(saved.state[cb.value]);
+            });
+          }
+          status.textContent = "Choices are saved in this browser on this device. Use Reset to clear them.";
+          update();
+        } else {
+          try {
+            localStorage.removeItem(KEY);
+            status.textContent = "Saved choices removed. Choices now stay only until you leave or refresh this page.";
+          } catch {
+            status.textContent = "Could not remove saved data because browser storage is unavailable.";
+          }
+        }
+      }
+
       list.forEach((cb) => {
-        cb.checked = !!state[cb.value];
         cb.addEventListener("change", update);
       });
+      rememberToggle.addEventListener("change", rememberChoices);
       resetBtn.addEventListener("click", reset);
-      update();
+      scoreEl.textContent = "0";
     </script>
   </body>
 </html>

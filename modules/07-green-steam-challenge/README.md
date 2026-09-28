@@ -5,8 +5,8 @@ Apply your skills to build a small sustainability‑focused web app linked to SD
 ## Learning Outcomes
 
 - Plans and implements a small purpose‑driven web app with clear user flows.
-- Persists simple state responsibly (e.g., `localStorage`) and explains privacy tradeoffs.
-- Communicates sustainability impact with clear metrics or narratives.
+- Makes persistence optional, handles storage limitations, and explains how to reset saved data.
+- Communicates sustainability activity counts and impact claims accurately, with limitations.
 
 ## Prerequisites
 
@@ -23,9 +23,9 @@ Apply your skills to build a small sustainability‑focused web app linked to SD
 ## Contents
 
 - Units
-  - [Unit 7.1 – Build a Sustainability Mini‑App](./units/unit-7.1-green-mini-app.md) — Plan–build–test a simple app with persistence.
+  - [Unit 7.1 – Build a Sustainability Mini‑App](./units/unit-7.1-green-mini-app.md) — Plan–build–test a simple app; persistence is optional.
 - Examples
-  - [green-mini-app.html](./examples/green-mini-app.html) — Track daily green actions; persists state with localStorage.
+  - [green-mini-app.html](./examples/green-mini-app.html) — Track selected green actions with optional, resettable local storage.
 - Tasks
   - [Task: SDG Mini‑App](./tasks/task-1-sdg-mini-app.md) — Design and explain a small app that supports awareness or behaviour change.
 - Teacher notes
@@ -43,8 +43,8 @@ Apply your skills to build a small sustainability‑focused web app linked to SD
 1. Pick a focus (e.g., tracking green actions, comparing CO₂ of choices, or a tips library).
 2. Outline the core flow (add/view/update) and sketch screens.
 3. Build a minimal interface with semantic HTML; add JS for interactions.
-4. If using `localStorage`, explain what is stored and how to reset or export.
-5. Add simple metrics (counts, points) and a brief explanation of why they matter.
+4. If using `localStorage`, make it optional, explain what is stored, handle storage errors, and explain how Reset removes saved data.
+5. Add simple activity counts and explain what they do and do not measure.
 6. Prepare a short demo highlighting the problem, solution, and impact.
 
 ## Acceptance Criteria (Module 7 Project)
@@ -99,5 +99,6 @@ open ./examples/green-mini-app.html
 
 ## Try it
 
-- Open the example, tick actions, refresh the page—progress remains (localStorage).
-- Add new actions or scoring rules and discuss impact.
+- Open the example, tick actions, and observe the selected-action count.
+- Opt in to saving choices, refresh the page, then use Reset to clear saved data.
+- Discuss why the count is not a measurement of environmental impact.

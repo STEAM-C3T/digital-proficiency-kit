@@ -9,7 +9,9 @@ Design goals:
 Acceptance criteria:
 
 - Includes at least one interactive element (input/button) and dynamic output.
-- Stores simple state (e.g., score, preferences) using `localStorage`.
+- Works for the current session without storage; persistence is optional and must handle storage being unavailable.
+- If persistence is offered, explains what is stored and how Reset removes it.
+- Describes counts or points as activity indicators, not measured environmental impact unless supported by a transparent method and data.
 - Provides a short help or "About" section describing purpose and usage.
 - Accessible labels for controls; no essential info conveyed by colour alone.
 
