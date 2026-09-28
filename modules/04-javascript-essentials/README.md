@@ -1,10 +1,11 @@
 # Module 4: JavaScript Essentials
 
-Add interactivity with JavaScript by handling events and updating the DOM. Build small, stateful interfaces.
+Learn JavaScript fundamentals, then use events and DOM updates to build small, stateful interfaces.
 
 ## Learning Outcomes
 
-- Writes basic JavaScript to query the DOM, register event listeners, and update content.
+- Uses variables, expressions, functions, and conditions to solve a small problem.
+- Connects an event to a function and updates page content safely.
 - Manages simple UI state and renders from state deterministically.
 - Applies progressive enhancement: page remains usable without JS.
 
@@ -23,9 +24,10 @@ Add interactivity with JavaScript by handling events and updating the DOM. Build
 ## Contents
 
 - Units
-  - [Unit 4.1 – JS Basics + DOM](./units/unit-4.1-js-basics-dom.md) — Variables, events, selecting elements, and updating content.
+  - [Unit 4.1 – JavaScript Basics and a First Interaction](./units/unit-4.1-js-basics-dom.md) — Variables, values, operators, functions, conditions, and a small event-driven calculator.
   - [Unit 4.2 – DOM Events & Dynamic UI](./units/unit-4.2-dom-events.md) — Forms, lists, state, and rendering patterns.
 - Examples
+  - [javascript-basics.html](./examples/javascript-basics.html) — A labeled calculator using functions, conditions, and a form event.
   - [dom-interactions.html](./examples/dom-interactions.html) — A simple counter with accessible updates.
   - [todo-list.html](./examples/todo-list.html) — Add, toggle, and filter items with basic state management.
 - Tasks
@@ -36,15 +38,15 @@ Add interactivity with JavaScript by handling events and updating the DOM. Build
 
 ## How This Module Works
 
-1. Learn JS + DOM fundamentals (Unit 4.1).
-2. Handle DOM events and manage stateful UI (Unit 4.2).
+1. Learn JavaScript fundamentals and connect one form event to a function (Unit 4.1).
+2. Use DOM events and arrays to manage a stateful list UI (Unit 4.2).
 3. Explore examples, then implement tasks that progressively enhance an existing page.
 
 ## Student Instructions (Step‑by‑Step)
 
-1. Open `examples/dom-interactions.html` and observe how event listeners change the DOM.
-2. Build a tiny interactive component (e.g., counter or toggler) using `addEventListener`.
-3. For a small list‑based UI (e.g., to‑do), store items in an array and render from state.
+1. Open `examples/javascript-basics.html` and trace how the inputs reach the calculation function.
+2. Predict the result of a calculation, run it, and try an invalid input.
+3. In Unit 4.2, use an array to store list items and render the visible items from that state.
 4. Ensure keyboard activation works (Enter/Space on buttons/controls) and announce changes accessibly (e.g., update text).
 5. Reflect on what state your app keeps and when re‑rendering occurs.
 
@@ -83,6 +85,7 @@ Add interactivity with JavaScript by handling events and updating the DOM. Build
 ## Quick Open (macOS)
 
 ```zsh
+open ./examples/javascript-basics.html
 open ./examples/dom-interactions.html
 open ./examples/todo-list.html
 ```

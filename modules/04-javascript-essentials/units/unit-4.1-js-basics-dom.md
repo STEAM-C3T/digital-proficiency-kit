@@ -1,80 +1,43 @@
 # Module 4: JavaScript Essentials
 
-## Unit 4.1 – JS Basics + DOM: Variables, Events, Manipulation
+## Unit 4.1 — JavaScript Basics and a First Interaction
 
-**Learning outcomes:**
+### Learning outcomes
 
-- Student writes basic JS (variables, functions) and logs to console.
-- Student selects DOM elements and updates text/attributes/styles.
-- Student handles user events (click, input) to change the page state.
+By the end of this unit, students can:
 
-**Teacher-notes:**
+- Store and update simple values with `const` and `let`.
+- Use numbers, strings, arithmetic operators, and simple comparisons.
+- Write and call a function that returns a value.
+- Use `if`/`else` to handle a basic condition.
+- Connect a form event to a function with `addEventListener` and show feedback with `textContent`.
 
-- Keep JavaScript in a `<script>` tag at the end of `<body>` for simplicity.
-- Demonstrate `document.querySelector`, `addEventListener`, and safe defaults.
-- Emphasise not blocking UI; prefer unobtrusive JS (no inline `onclick`).
+### Lesson sequence
 
-**Classroom Task:**
+1. Predict what a short JavaScript expression will display.
+2. Demonstrate a variable, an arithmetic expression, and a function in the browser console.
+3. Build a small two-number calculator with labeled inputs and a submit button.
+4. Use a condition to handle missing numbers or division by zero.
+5. Ask students to explain one calculation and one validation rule.
 
-- Build a mini interactive profile card:
-  - A text input to set a name; updates `<h2>` live.
-  - A button to toggle a "dark mode" class on `<body>`.
+### Classroom task
 
-**Code Template:**
+Build or extend a simple calculator that accepts two numbers and an operation, then displays the result. Use a named function for the calculation and an event listener for form submission. Use `textContent` for the result and a clear message for invalid input.
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>JS Basics + DOM</title>
-    <style>
-      body {
-        font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-        margin: 1rem;
-      }
-      .card {
-        border: 1px solid #e5e7eb;
-        border-radius: 8px;
-        padding: 1rem;
-        max-width: 32rem;
-      }
-      .dark {
-        background: #0b1020;
-        color: #e5e7eb;
-      }
-      .dark .card {
-        border-color: #334155;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="card">
-      <h2 id="name">Your Name</h2>
-      <label for="nameInput">Set name:</label>
-      <input id="nameInput" type="text" placeholder="Type your name" />
-      <button id="toggleTheme">Toggle dark mode</button>
-    </div>
+### Example and task
 
-    <script>
-      const nameEl = document.querySelector("#name");
-      const inputEl = document.querySelector("#nameInput");
-      const toggleBtn = document.querySelector("#toggleTheme");
+- Example: [JavaScript Basics Calculator](../examples/javascript-basics.html)
+- Student task: [First JavaScript Interaction](../tasks/task-1-interactive-elements.md)
 
-      inputEl.addEventListener("input", () => {
-        nameEl.textContent = inputEl.value || "Your Name";
-      });
+### Teacher notes
 
-      toggleBtn.addEventListener("click", () => {
-        document.body.classList.toggle("dark");
-      });
-    </script>
-  </body>
-</html>
-```
+- Keep the core lesson to variables, simple values, arithmetic, functions, and `if`/`else`.
+- Treat arrays, objects, and loops as optional extensions; students will encounter collection state in Unit 4.2.
+- Avoid inline event attributes such as `onclick`; introduce `addEventListener` in the calculator as the first event pattern.
+- Do not expect students to memorize syntax. Model predicting, running, reading an error, and making one change at a time.
 
-**Reflection prompt:**
+### Reflection
 
-- What events did you handle and why?
-- How did you ensure the page still works with empty input?
+- Which values did your program store, and when did they change?
+- How did your function use its inputs to produce a result?
+- What did the program tell the user when an input was missing or invalid?

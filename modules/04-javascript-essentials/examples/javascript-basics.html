@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>JavaScript Basics Calculator</title>
+    <style>
+      body { max-width: 38rem; margin: 2rem auto; padding: 0 1rem; font: 1rem/1.5 system-ui, sans-serif; color: #17263c; }
+      form { display: grid; gap: .85rem; }
+      label { display: grid; gap: .25rem; }
+      input, select, button { padding: .55rem; font: inherit; }
+      button { justify-self: start; cursor: pointer; }
+      #result { min-height: 1.5em; }
+      :focus-visible { outline: 3px solid #166b85; outline-offset: 2px; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>JavaScript Basics Calculator</h1>
+      <p>Enter two numbers. The form calls a function to calculate and report the result.</p>
+      <form id="calculator">
+        <label for="first-number">First number</label>
+        <input id="first-number" name="firstNumber" type="number" step="any" />
+
+        <label for="operation">Operation</label>
+        <select id="operation" name="operation">
+          <option value="add">Add</option>
+          <option value="subtract">Subtract</option>
+          <option value="multiply">Multiply</option>
+          <option value="divide">Divide</option>
+        </select>
+
+        <label for="second-number">Second number</label>
+        <input id="second-number" name="secondNumber" type="number" step="any" />
+
+        <button type="submit">Calculate</button>
+      </form>
+      <p id="result" aria-live="polite">Enter two numbers and choose Calculate.</p>
+    </main>
+
+    <script>
+      const form = document.querySelector("#calculator");
+      const firstInput = document.querySelector("#first-number");
+      const secondInput = document.querySelector("#second-number");
+      const operationInput = document.querySelector("#operation");
+      const result = document.querySelector("#result");
+
+      function calculate(first, second, operation) {
+        if (operation === "add") return first + second;
+        if (operation === "subtract") return first - second;
+        if (operation === "multiply") return first * second;
+        if (operation === "divide") return first / second;
+      }
+
+      form.addEventListener("submit", (event) => {
+        event.preventDefault();
+
+        if (firstInput.value === "" || secondInput.value === "") {
+          result.textContent = "Enter both numbers before calculating.";
+          return;
+        }
+
+        const first = firstInput.valueAsNumber;
+        const second = secondInput.valueAsNumber;
+        const operation = operationInput.value;
+
+        if (operation === "divide" && second === 0) {
+          result.textContent = "You cannot divide by zero.";
+          return;
+        }
+
+        const answer = calculate(first, second, operation);
+        result.textContent = `Result: ${answer}`;
+      });
+    </script>
+  </body>
+</html>
