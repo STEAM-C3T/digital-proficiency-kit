@@ -88,6 +88,7 @@ Comprehensive instructional materials for teachers and students are available in
   - [Student workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/01-introduction-to-the-web/units/1.1-what-is-the-web/workbook/unit-1.1-student-workbook.md)
   - [Teacher annotated workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/01-introduction-to-the-web/units/1.1-what-is-the-web/workbook/unit-1.1-teacher-annotated.md) (with timing, differentiation, answer keys)
 - **Unit 1.2 Materials:**
+  - Core lesson: 55 minutes; optional follow-up: 15–35 minutes. See the [lesson plan](https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/01-introduction-to-the-web/unit-1.2-lesson-plan.md) and [classroom-ready Unit 1.2 materials](https://github.com/STEAM-C3T/dpk-learning-materials/tree/main/modules/01-introduction-to-the-web/units/1.2-basic-structure).
   - [Lesson deck](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/01-introduction-to-the-web/units/1.2-basic-structure/unit-1.2-deck.md)
   - [Step-by-step tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/01-introduction-to-the-web/units/1.2-basic-structure/tutorial/unit-1.2-tutorial.md)
   - [Student workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/01-introduction-to-the-web/units/1.2-basic-structure/workbook/unit-1.2-student-workbook.md)
