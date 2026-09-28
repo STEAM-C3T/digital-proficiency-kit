@@ -9,7 +9,7 @@ Browser-based STEAM learning resources for building digital skills with HTML, CS
 
 Choose a route to get started:
 
-- [Student learning modules](modules/README.md): learning units, tasks, and runnable examples.
+- [Student learning modules](modules/): learning units, tasks, and runnable examples.
 - [Teacher lesson plans and rubrics](https://steam-c3t.github.io/teacher-toolkit/).
 - [Slides, tutorials, and workbooks](https://steam-c3t.github.io/dpk-learning-materials/).
 
