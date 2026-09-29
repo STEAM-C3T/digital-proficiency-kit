@@ -15,7 +15,7 @@ This module introduces how the web works and how to create a minimal, semantic H
 
 ## Estimated Time
 
-- 1–2 lessons (45–90 minutes) depending on depth of discussion.
+- 2–3 lessons (about 110–145 minutes), including the two unit activities and the final page task.
 
 ## Materials
 
@@ -36,21 +36,20 @@ This module introduces how the web works and how to create a minimal, semantic H
 
 ## How This Module Works
 
-1. Learn concepts with Units 1.1–1.2 (how the web works; semantic page).
-2. Explore the provided `examples/` by opening them in the browser.
-3. Complete guided practice and then the independent task under `tasks/`.
-4. Record reflections on what makes the page accessible and semantic.
+Follow the two units in order. Each unit's tutorial and workbook are in the [Learning Materials repository](https://github.com/STEAM-C3T/dpk-learning-materials/tree/main/modules/01-introduction-to-the-web). The code example and final task are kept here.
+
+### Your route through this module
+
+1. **Unit 1.1 — Understand the web.** Work through the [Unit 1.1 tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/01-introduction-to-the-web/units/1.1-what-is-the-web/tutorial/unit-1.1-tutorial.md) and use its [student workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/01-introduction-to-the-web/units/1.1-what-is-the-web/workbook/unit-1.1-student-workbook.md) to record the browser → server → response sequence. **Checkpoint:** explain what the browser requests and what the server sends back.
+2. **Unit 1.2 — Build a page.** Follow the [Unit 1.2 tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/01-introduction-to-the-web/units/1.2-basic-structure/tutorial/unit-1.2-tutorial.md) and [student workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/01-introduction-to-the-web/units/1.2-basic-structure/workbook/unit-1.2-student-workbook.md). Open [minimal-page.html](./examples/minimal-page.html) as a reference. **Checkpoint:** save and open your own page with a title, semantic page regions, a heading, paragraph, and list; add an image and descriptive alt text as the next step.
+3. **Make and review.** Complete [Your First Webpage](./tasks/task-1-first-webpage.md). Check that it opens in your browser, then use the task checklist to review its structure and mobile readability.
+4. **Reflect.** Record one HTML choice you made and one way it helps a visitor understand or use the page.
+
+**What to keep:** your finished `.html` file and a short reflection. If you run out of time, save after Unit 1.2 and continue with the task later.
 
 ## Student Instructions (Step‑by‑Step)
 
-1. Read Unit 1.1 to understand the browser–server model and URLs.
-2. Read Unit 1.2 and inspect `examples/minimal-page.html` in the browser.
-3. Create your own minimal page for a topic of your choice:
-   - Use `header`, `main`, and `footer`.
-   - Include at least one heading hierarchy (`h1` + subheadings), one list, and at least two links with meaningful text.
-   - Add an image with descriptive `alt` text.
-4. Use the browser’s Inspect/Developer Tools to view and verify semantic structure.
-5. Complete the reflection prompts in the task file.
+Use the route above rather than treating this list as a separate assignment. You can complete the module with a text editor and browser; DevTools is optional. The task brief is the final checklist and deliverable definition.
 
 ## Acceptance Criteria (Module 1 Project)
 
