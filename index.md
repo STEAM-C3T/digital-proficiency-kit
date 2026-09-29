@@ -5,13 +5,24 @@ title: Digital Proficiency Kit
 
 # Digital Proficiency Kit
 
-Browser-based STEAM learning resources for building digital skills with HTML, CSS, and JavaScript.
+Learn to make web pages and small interactive projects with HTML, CSS, and JavaScript. You can work through the student modules in order using a browser and a text editor.
 
-Choose a route to get started:
+## Start learning
 
-- [Student learning modules](modules/): learning units, tasks, and runnable examples.
-- [Teacher lesson plans and rubrics](https://steam-c3t.github.io/teacher-toolkit/).
-- [Slides, tutorials, and workbooks](https://steam-c3t.github.io/dpk-learning-materials/).
+New to web development? Begin with [Module 1: Introduction to the Web](modules/01-introduction-to-the-web/README.md). It has no coding prerequisites and walks you through your first webpage.
+
+Already know the basics? [Choose a module](modules/) that matches what you want to practise.
+
+### How the student route works
+
+For each module, follow its numbered **Your Route Through This Module** steps. You will use a tutorial and workbook, try a runnable example, complete a task, then check and reflect on your work. Tutorials and workbooks open in the Learning Materials site; return to the module page when you finish each one to continue. Each module page lists what to save and where to go next.
+
+You need a modern browser and a text editor. The activities are designed to work without installing programming tools; any extra tools are marked optional.
+
+### Looking for teacher resources?
+
+- [Teacher lesson plans and rubrics](https://steam-c3t.github.io/teacher-toolkit/)
+- [Slides, tutorials, and workbooks](https://steam-c3t.github.io/dpk-learning-materials/)
 
 ## Learning modules
 

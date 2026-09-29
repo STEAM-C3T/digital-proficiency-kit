@@ -2,6 +2,8 @@
 
 This module introduces how the web works and how to create a minimal, semantic HTML page. It’s browser‑only—open the example files directly in your browser.
 
+**New to the course?** Start with this module. You need a modern browser and a text editor; no coding experience is expected. [Go to Unit 1.1](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/01-introduction-to-the-web/units/1.1-what-is-the-web/tutorial/unit-1.1-tutorial.md).
+
 ## Learning Outcomes
 
 - Describes how browsers request and render pages (client–server basics).
@@ -40,12 +42,21 @@ Follow the two units in order. Each unit's tutorial and workbook are in the [Lea
 
 ### Your route through this module
 
-1. **Unit 1.1 — Understand the web.** Work through the [Unit 1.1 tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/01-introduction-to-the-web/units/1.1-what-is-the-web/tutorial/unit-1.1-tutorial.md) and use its [student workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/01-introduction-to-the-web/units/1.1-what-is-the-web/workbook/unit-1.1-student-workbook.md) to record the browser → server → response sequence. **Checkpoint:** explain what the browser requests and what the server sends back.
-2. **Unit 1.2 — Build a page.** Follow the [Unit 1.2 tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/01-introduction-to-the-web/units/1.2-basic-structure/tutorial/unit-1.2-tutorial.md) and [student workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/01-introduction-to-the-web/units/1.2-basic-structure/workbook/unit-1.2-student-workbook.md). Open [minimal-page.html](./examples/minimal-page.html) as a reference. **Checkpoint:** save and open your own page with a title, semantic page regions, a heading, paragraph, and list; add an image and descriptive alt text as the next step.
+1. **Unit 1.1 — Understand the web.** Work through the [Unit 1.1 tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/01-introduction-to-the-web/units/1.1-what-is-the-web/tutorial/unit-1.1-tutorial.md) and use its [student workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/01-introduction-to-the-web/units/1.1-what-is-the-web/workbook/unit-1.1-student-workbook.md) to record the browser → server → response sequence. When finished, return to this page. **Checkpoint:** explain what the browser requests and what the server sends back.
+2. **Unit 1.2 — Build a page.** Follow the [Unit 1.2 tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/01-introduction-to-the-web/units/1.2-basic-structure/tutorial/unit-1.2-tutorial.md) and [student workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/01-introduction-to-the-web/units/1.2-basic-structure/workbook/unit-1.2-student-workbook.md). When finished, return here and open [minimal-page.html](./examples/minimal-page.html) as a reference. **Checkpoint:** save and open your own page with a title, semantic page regions, a heading, paragraph, and list; add an image and descriptive alt text as the next step.
 3. **Make and review.** Complete [Your First Webpage](./tasks/task-1-first-webpage.md). Check that it opens in your browser, then use the task checklist to review its structure and mobile readability.
 4. **Reflect.** Record one HTML choice you made and one way it helps a visitor understand or use the page.
 
 **What to keep:** your finished `.html` file and a short reflection. If you run out of time, save after Unit 1.2 and continue with the task later.
+
+### Module 1 progress check
+
+- [ ] I can describe what happens when a browser requests a page.
+- [ ] I created and opened my own HTML page.
+- [ ] I checked its headings, links, image description, and keyboard focus.
+- [ ] I saved the page and wrote a short reflection.
+
+**Next:** continue to [Module 2: HTML Foundations](../02-html-foundations/README.md) when you are ready. You can also [return to the student module list](../).
 
 ## Student Instructions (Step‑by‑Step)
 
