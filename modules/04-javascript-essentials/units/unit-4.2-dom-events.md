@@ -5,7 +5,7 @@
 **Learning outcomes:**
 
 - Student handles common DOM events (`click`, `input`, `submit`).
-- Student updates the DOM safely (textContent, classList) based on state.
+- Student renders state safely with `textContent`; using `classList` for completion styling is an optional extension.
 - Student structures small UI logic into functions.
 
 **Teacher-notes:**

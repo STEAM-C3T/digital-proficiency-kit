@@ -65,11 +65,13 @@ body {
   border-radius: 8px;
   padding: var(--gap);
 }
+/* Core breakpoint: widen the grid from one to two columns. */
 @media (min-width: 640px) {
   .grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+/* Optional extension: add a second breakpoint for three columns. */
 @media (min-width: 1024px) {
   .grid {
     grid-template-columns: repeat(3, 1fr);
@@ -79,5 +81,5 @@ body {
 
 **Reflection prompt:**
 
-- What breakpoints did you choose and why?
+- Which core breakpoint did you choose and why? If you tried the optional second breakpoint, what does it improve?
 - Where did Grid make sense vs Flexbox?

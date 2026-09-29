@@ -18,7 +18,7 @@ Optional extensions: mark items complete, delete items, add filters or counts, a
 
 Acceptance criteria:
 
-- Uses `addEventListener` for event handling and `classList`/`textContent` for DOM updates.
+- Uses `addEventListener` for event handling and `textContent` to render items safely. Using `classList` for optional completion styling is an extension.
 - Prevents default form submission and handles empty input.
 - Adding valid text updates both the array and rendered list; the page does not reload.
 - Includes accessible labels and maintains focus order.
