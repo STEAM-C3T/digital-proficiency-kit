@@ -112,4 +112,4 @@ open ./examples/minimal-page.html
 ## Try it
 
 - Open any `.html` file in your browser (double‑click or drag‑and‑drop).
-- Use View Source / Inspect to connect the unit notes with the code.
+- If browser developer tools are available, use View Source / Inspect to connect the unit notes with the code; this is optional.

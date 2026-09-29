@@ -14,7 +14,7 @@ Explore generative visuals and interactive posters by combining HTML/CSS with Ja
 
 ## Estimated Time
 
-- 2 lessons (90 minutes) with time for iteration.
+- 2–3 lessons (90–120 minutes for the core artwork and iteration); optional techniques may need another 30–60 minutes.
 
 ## Materials
 

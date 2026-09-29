@@ -1,6 +1,6 @@
 # Module 5: Data & Visualization
 
-Represent small datasets visually using Canvas or SVG. Focus on mapping values to sizes/positions and clear labelling.
+Represent a small dataset as a labelled Canvas bar chart. Focus on mapping values to bar heights and making the chart understandable without relying on the visual alone. SVG and other chart types are optional extensions.
 
 ## Learning Outcomes
 
@@ -14,11 +14,11 @@ Represent small datasets visually using Canvas or SVG. Focus on mapping values t
 
 ## Estimated Time
 
-- 2 lessons (90 minutes) depending on dataset exploration.
+- 2 lessons (about 90 minutes for the core chart and table); allow another 30–60 minutes for optional chart types or interaction.
 
 ## Materials
 
-- Browser with Canvas/SVG support (modern browsers), text editor.
+- Browser with Canvas support (modern browsers), text editor.
 
 ## Contents
 
@@ -27,15 +27,15 @@ Represent small datasets visually using Canvas or SVG. Focus on mapping values t
 - Examples
   - [canvas-bar-chart.html](./examples/canvas-bar-chart.html) — CO₂ savings as a labelled bar chart.
 - Tasks
-  - [Task: Visualize a Small Dataset](./tasks/task-1-visualize-dataset.md) — Pick a dataset, choose a chart form, and explain scaling.
+  - [Task: Visualize a Small Dataset](./tasks/task-1-visualize-dataset.md) — Build a Canvas bar chart, add a companion table, and explain the scale.
 - Teacher notes
   - [Notes](./teacher-notes/notes.md) — Accessibility tips (pair with a table), extension ideas.
 
 ## How This Module Works
 
 1. Learn Canvas basics via Unit 5.1 and the example bar chart.
-2. Choose a small dataset and decide on a chart form (bar/line/strip).
-3. Implement scaling, draw marks, and label axes/values clearly.
+2. Choose 4–8 data values with clear labels and units.
+3. Implement a scale, draw bars, and label the chart clearly. Other chart forms are optional extensions.
 4. Provide a companion HTML table for screen reader access.
 
 ## Your Route Through This Module
@@ -50,7 +50,7 @@ Represent small datasets visually using Canvas or SVG. Focus on mapping values t
 ## Student Instructions (Step‑by‑Step)
 
 1. Open `examples/canvas-bar-chart.html`; change the `data` array and observe the result.
-2. Select a meaningful dataset (5–12 values) and describe what each value represents.
+2. Select a meaningful dataset (4–8 values) and describe what each value represents.
 3. Implement a scale function (map data range → pixel range) and draw marks.
 4. Add axes and labels; ensure units are explicit.
 5. Add an HTML table below the chart so values are available as text.
@@ -58,7 +58,7 @@ Represent small datasets visually using Canvas or SVG. Focus on mapping values t
 
 ## Acceptance Criteria (Module 5 Project)
 
-- Correctness: Scale maps data to pixels consistently; axes/labels match values.
+- Correctness: Scale maps each data value to bar height consistently; labels match values.
 - Accessibility: Companion table lists values; chart has text description.
 - Clarity: Units, titles, and legend (if needed) are present.
 - Reflection: Explains encoding choice and limitations.

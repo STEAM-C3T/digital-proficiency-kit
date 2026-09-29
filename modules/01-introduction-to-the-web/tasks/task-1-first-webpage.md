@@ -29,4 +29,4 @@ Create a small page about a topic you choose. You can use the page you started i
 
 ## What to submit
 
-- One HTML file and a 1–2 sentence reflection. Include a comment at the top explaining what the page is about.
+- One HTML file and a 1–2 sentence reflection explaining one structure or accessibility choice.

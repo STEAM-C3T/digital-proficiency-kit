@@ -14,7 +14,7 @@ Apply your skills to build a small sustainability‑focused web app linked to SD
 
 ## Estimated Time
 
-- 2–4 lessons (90–180 minutes) for planning, build, and sharing.
+- 3–4 lessons (135–180 minutes for planning, building, testing, and sharing); optional persistence or dataset work may need another 30–60 minutes.
 
 ## Materials
 
