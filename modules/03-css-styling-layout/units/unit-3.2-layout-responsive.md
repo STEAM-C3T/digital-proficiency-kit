@@ -16,7 +16,7 @@
 
 **Classroom Task:**
 
-- Build a simple 2–3 section page with a header, responsive navigation, and a card grid that changes columns based on viewport width.
+- Core: build a card grid that changes from one to two columns at one breakpoint. Optional extension: add a second breakpoint for three columns or make the navigation responsive.
 
 **Code Template (excerpt):**
 

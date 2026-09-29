@@ -34,7 +34,7 @@ Explore generative visuals and interactive posters by combining HTML/CSS with Ja
 ## How This Module Works
 
 1. Explore a generative example and identify parameters (count, size, colour, speed).
-2. Build your own variation; connect one parameter to a control. A second or third parameter is an optional extension.
+2. Build your own variation; connect one parameter to a labelled control. A second or third control is an optional extension.
 3. Iterate on composition, contrast, and motion for clarity and expression.
 4. Share and reflect on design intent and outcomes.
 
@@ -52,7 +52,7 @@ Explore generative visuals and interactive posters by combining HTML/CSS with Ja
 
 1. Open `examples/generative-art.html`; change variables and see effects.
 2. Create your own sketch: draw a grid or pattern and animate a property (e.g., colour, size, rotation).
-3. Add controls (range inputs) to adjust parameters live.
+3. Add one labelled control (for example, a range input) to adjust a parameter live; more controls are optional.
 4. Ensure motion is not overwhelming; provide a pause toggle if needed.
 5. Document two iterations with screenshots and notes.
 
