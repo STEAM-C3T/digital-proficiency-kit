@@ -34,7 +34,7 @@ Explore generative visuals and interactive posters by combining HTML/CSS with Ja
 ## How This Module Works
 
 1. Explore a generative example and identify parameters (count, size, colour, speed).
-2. Build your own variation; expose 2–3 parameters via inputs.
+2. Build your own variation; connect one parameter to a control. A second or third parameter is an optional extension.
 3. Iterate on composition, contrast, and motion for clarity and expression.
 4. Share and reflect on design intent and outcomes.
 
@@ -59,7 +59,7 @@ Explore generative visuals and interactive posters by combining HTML/CSS with Ja
 ## Acceptance Criteria (Module 6 Project)
 
 - Expression: Visual communicates an idea or theme consistently.
-- Control: At least two parameters adjustable via UI; sensible ranges.
+- Control: At least one meaningful parameter is adjustable by a labelled UI control; additional controls are optional extensions.
 - Accessibility: Sufficient contrast; motion can be paused or slowed.
 - Documentation: Includes brief process notes and iteration screenshots.
 

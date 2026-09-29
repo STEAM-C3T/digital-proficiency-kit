@@ -17,7 +17,7 @@
 **Classroom Task:**
 
 - Create an animated pattern (dots, lines, or shapes) that changes over time.
-- Expose 2–3 controls (sliders or inputs) to tweak the artwork.
+- Expose one labelled control (slider or input) to tweak the artwork; additional controls are optional extensions.
 
 **Code Template:**
 
