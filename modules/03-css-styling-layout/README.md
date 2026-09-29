@@ -18,7 +18,7 @@ Style content with typography and colour, then build responsive layouts with Gri
 
 ## Materials
 
-- Modern browser with DevTools; text editor.
+- Modern browser and text editor. DevTools are optional; resize the browser window to check responsive layouts.
 
 ## Contents
 
