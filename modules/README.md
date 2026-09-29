@@ -31,4 +31,4 @@ For a narrative overview, see `docs/modules.md`.
    - [Teacher Toolkit](https://github.com/STEAM-C3T/teacher-toolkit/tree/main/modules/06-creative-web-projects)
 7. [Green STEAM Challenge](./07-green-steam-challenge/README.md)
    - Build a small sustainability‑focused mini‑app aligned to SDGs; consider ethics, privacy, and impact communication.
-   - [Teacher Toolkit](https://github.com/STEAM-C3T/teacher-toolkit/tree/main/modules/07-green-steAM-challenge)
+   - [Teacher Toolkit](https://github.com/STEAM-C3T/teacher-toolkit/tree/main/modules/07-green-steam-challenge)
