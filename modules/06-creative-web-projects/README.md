@@ -2,6 +2,8 @@
 
 Explore generative visuals and interactive posters by combining HTML/CSS with JavaScript animation and parameters.
 
+**Start here:** Check the prerequisites below, then begin with the [Unit 6.1 tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/06-creative-web-projects/units/6.1-generative-art/tutorial/unit-6.1-tutorial.md). Follow the numbered route on this page and return here after using materials on the Learning Materials site.
+
 ## Learning Outcomes
 
 - Implements parameterized visuals and simple animation loops.
@@ -40,13 +42,22 @@ Explore generative visuals and interactive posters by combining HTML/CSS with Ja
 
 ## Your Route Through This Module
 
-1. **Unit 6.1 — Explore generative art.** Follow the [tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/06-creative-web-projects/units/6.1-generative-art/tutorial/unit-6.1-tutorial.md) and [student workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/06-creative-web-projects/units/6.1-generative-art/workbook/unit-6.1-student-workbook.md). Open the [generative art example](./examples/generative-art.html), predict what a parameter changes, then adjust it. **Checkpoint:** describe the role of one parameter in the image.
+1. **Unit 6.1 — Explore generative art.** Follow the [tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/06-creative-web-projects/units/6.1-generative-art/tutorial/unit-6.1-tutorial.md) and [student workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/06-creative-web-projects/units/6.1-generative-art/workbook/unit-6.1-student-workbook.md), then return here. Open the [generative art example](./examples/generative-art.html), predict what a parameter changes, then adjust it. **Checkpoint:** describe the role of one parameter in the image.
 2. **Make a small sketch.** Begin with one visual idea and one changeable property. Add controls only after the basic sketch works.
 3. **Create your poster.** Complete [Create an Interactive Poster](./tasks/task-1-creative-poster.md). Include a caption, test the layout at a narrow width, and provide a way to pause or reduce motion.
 4. **Get feedback and iterate.** Ask a classmate what they think the poster communicates, make one purposeful change, and record before/after screenshots.
 5. **Reflect.** Write a short artist statement describing your intent and one change you made after testing.
 
 **What to keep:** your HTML file, two iteration screenshots, caption, and artist statement. Peer feedback is part of this project sequence; it is not a separate unit.
+
+### Module 6 progress check
+
+- [ ] My sketch communicates an idea and has at least one meaningful adjustable parameter.
+- [ ] I added a caption and a way to pause or reduce motion.
+- [ ] I tested the work at a narrow width and made one change after feedback.
+- [ ] I saved two iteration screenshots and an artist statement.
+
+**Next:** continue to [Module 7: Green STEAM Challenge](../07-green-steam-challenge/README.md), or [return to the student module list](../).
 
 ## Student Instructions (Step‑by‑Step)
 

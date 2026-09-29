@@ -2,6 +2,8 @@
 
 Apply your skills to build a small sustainability‑focused web app linked to SDG themes. Keep scope small and impactful.
 
+**Start here:** Check the prerequisites below, then begin with the [Unit 7.1 tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/07-green-steam-challenge/units/7.1-green-mini-app/tutorial/unit-7.1-tutorial.md). Follow the numbered route on this page and return here after using materials on the Learning Materials site.
+
 ## Learning Outcomes
 
 - Plans and implements a small purpose‑driven web app with clear user flows.
@@ -40,13 +42,22 @@ Apply your skills to build a small sustainability‑focused web app linked to SD
 
 ## Your Route Through This Module
 
-1. **Unit 7.1 — Choose a focused sustainability question.** Follow the [tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/07-green-steam-challenge/units/7.1-green-mini-app/tutorial/unit-7.1-tutorial.md) and [student workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/07-green-steam-challenge/units/7.1-green-mini-app/workbook/unit-7.1-student-workbook.md). Start with one user, one need, and one interaction. **Checkpoint:** explain who the app helps and what the user can do.
+1. **Unit 7.1 — Choose a focused sustainability question.** Follow the [tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/07-green-steam-challenge/units/7.1-green-mini-app/tutorial/unit-7.1-tutorial.md) and [student workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/07-green-steam-challenge/units/7.1-green-mini-app/workbook/unit-7.1-student-workbook.md), then return here. Start with one user, one need, and one interaction. **Checkpoint:** explain who the app helps and what the user can do.
 2. **Plan before coding.** Sketch the screen and write down the input, action, and feedback. Use the [green mini-app example](./examples/green-mini-app.html) to explore how a small interaction works.
 3. **Build the core version.** Complete [SDG Mini-App](./tasks/task-1-sdg-mini-app.md). Make sure it works in the current session before considering optional storage.
 4. **Test and improve.** Ask a peer to try the app, then make one improvement. If you add saving, explain what is stored and how to reset it. Never use real personal or sensitive data in a classroom prototype.
 5. **Present and reflect.** Show the problem, the interaction, and what you changed. Explain what your app's counts or outputs do—and do not—measure.
 
 **What to keep:** your HTML file, a short demo or screenshot, peer feedback, and the 100–150 word write-up. Presentation and reflection are part of this project, not a separate unit.
+
+### Module 7 progress check
+
+- [ ] I defined a specific user, need, and sustainability goal.
+- [ ] My core app interaction works and is keyboard operable.
+- [ ] I tested the app with a peer and made one improvement.
+- [ ] I saved a demo or screenshot and explained the app's impact and limits.
+
+**Course complete:** you have reached the end of the student module sequence. Revisit the [module list](../) to explore a topic again or open the [course home](../../).
 
 ## Student Instructions (Step‑by‑Step)
 

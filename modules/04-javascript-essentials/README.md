@@ -2,6 +2,8 @@
 
 Learn JavaScript fundamentals, then use events and DOM updates to build small, stateful interfaces.
 
+**Start here:** Check the prerequisites below, then begin with the [Unit 4.1 tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/04-javascript-essentials/units/4.1-javascript-basics/tutorial/unit-4.1-tutorial.md). Follow the numbered route on this page and return here after using materials on the Learning Materials site.
+
 ## Learning Outcomes
 
 - Uses variables, expressions, functions, and conditions to solve a small problem.
@@ -44,13 +46,22 @@ Learn JavaScript fundamentals, then use events and DOM updates to build small, s
 
 ## Your Route Through This Module
 
-1. **Unit 4.1 — Make a first interaction.** Follow the [tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/04-javascript-essentials/units/4.1-javascript-basics/tutorial/unit-4.1-tutorial.md) and [student workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/04-javascript-essentials/units/4.1-javascript-basics/workbook/unit-4.1-student-workbook.md). Trace the [calculator example](./examples/javascript-basics.html), predict an answer, then try it. **Checkpoint:** explain which function calculates the answer and which event calls it. Console experiments, arrays, and loops are optional; DevTools are not required.
+1. **Unit 4.1 — Make a first interaction.** Follow the [tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/04-javascript-essentials/units/4.1-javascript-basics/tutorial/unit-4.1-tutorial.md) and [student workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/04-javascript-essentials/units/4.1-javascript-basics/workbook/unit-4.1-student-workbook.md), then return here. Trace the [calculator example](./examples/javascript-basics.html), predict an answer, then try it. **Checkpoint:** explain which function calculates the answer and which event calls it. Console experiments, arrays, and loops are optional; DevTools are not required.
 2. **Practise Unit 4.1.** Complete [Build a First JavaScript Calculator](./tasks/task-1-interactive-elements.md). Save the working file before moving on.
-3. **Unit 4.2 — Keep a small interface in sync with state.** Follow the [tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/04-javascript-essentials/units/4.2-dom-manipulation/tutorial/unit-4.2-tutorial.md) and [student workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/04-javascript-essentials/units/4.2-dom-manipulation/workbook/unit-4.2-student-workbook.md). Explore the [todo example](./examples/todo-list.html). **Checkpoint:** describe what changes in the array when an item is added, and how the page is rendered from it. Toggling items is optional extension work.
+3. **Unit 4.2 — Keep a small interface in sync with state.** Follow the [tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/04-javascript-essentials/units/4.2-dom-manipulation/tutorial/unit-4.2-tutorial.md) and [student workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/04-javascript-essentials/units/4.2-dom-manipulation/workbook/unit-4.2-student-workbook.md), then return here. Explore the [todo example](./examples/todo-list.html). **Checkpoint:** describe what changes in the array when an item is added, and how the page is rendered from it. Toggling items is optional extension work.
 4. **Build and check.** Complete [Build a Small Dynamic UI](./tasks/task-2-dom-events.md). Test valid and empty input, then check how the page responds. Native form submission also supports the keyboard.
 5. **Reflect.** Describe one event, the state change it causes, and how the user sees the result.
 
 **What to keep:** your calculator, dynamic interface, and short event/state explanation. Browser DevTools can help you read errors, but they are not required.
+
+### Module 4 progress check
+
+- [ ] My calculator responds to input and handles an invalid or empty value.
+- [ ] My dynamic interface stores items in JavaScript and renders them on the page.
+- [ ] I checked that the controls work with a keyboard.
+- [ ] I saved both activities and described one event and its state change.
+
+**Next:** continue to [Module 5: Data & Visualization](../05-data-visualization/README.md), or [return to the student module list](../).
 
 ## Student Instructions (Step‑by‑Step)
 

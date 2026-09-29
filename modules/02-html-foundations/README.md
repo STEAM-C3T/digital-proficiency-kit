@@ -2,6 +2,8 @@
 
 Build well‑structured, accessible content using semantic HTML. Learn headings, lists, links, images, forms, and tables.
 
+**Start here:** Check the prerequisites below, then begin with the [Unit 2.1 tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/02-html-foundations/units/2.1-building-content/tutorial/unit-2.1-tutorial.md). Follow the numbered route on this page and return here after using materials on the Learning Materials site.
+
 ## Learning Outcomes
 
 - Structures content with appropriate semantic elements (sections, lists, figures, forms, tables).
@@ -41,13 +43,22 @@ Build well‑structured, accessible content using semantic HTML. Learn headings,
 
 ## Your Route Through This Module
 
-1. **Unit 2.1 — Build clear content.** Follow the [tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/02-html-foundations/units/2.1-building-content/tutorial/unit-2.1-tutorial.md) and [student workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/02-html-foundations/units/2.1-building-content/workbook/unit-2.1-student-workbook.md). **Checkpoint:** your topic page has a meaningful heading structure, paragraphs, a list, a descriptive link, and an image with appropriate alt text.
+1. **Unit 2.1 — Build clear content.** Follow the [tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/02-html-foundations/units/2.1-building-content/tutorial/unit-2.1-tutorial.md) and [student workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/02-html-foundations/units/2.1-building-content/workbook/unit-2.1-student-workbook.md), then return to this page. **Checkpoint:** your topic page has a meaningful heading structure, paragraphs, a list, a descriptive link, and an image with appropriate alt text.
 2. **Practise Unit 2.1.** Complete [Build a Content Page](./tasks/task-1-content-page.md). Save the page; you will extend it after Unit 2.2.
-3. **Unit 2.2 — Structure a form and data table.** Work through the [tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/02-html-foundations/units/2.2-structuring-for-access/tutorial/unit-2.2-tutorial.md) and [student workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/02-html-foundations/units/2.2-structuring-for-access/workbook/unit-2.2-student-workbook.md). Use [student-survey.html](./examples/student-survey.html) as a reference. **Checkpoint:** every form control has a visible label, and the table has headers that describe its columns.
+3. **Unit 2.2 — Structure a form and data table.** Work through the [tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/02-html-foundations/units/2.2-structuring-for-access/tutorial/unit-2.2-tutorial.md) and [student workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/02-html-foundations/units/2.2-structuring-for-access/workbook/unit-2.2-student-workbook.md), then return here. Use [student-survey.html](./examples/student-survey.html) as a reference. **Checkpoint:** every form control has a visible label, and the table has headers that describe its columns.
 4. **Apply both units.** Complete [Build an Accessible Survey Page](./tasks/task-2-accessible-survey.md). Use fictional data only; this static practice page does not collect or store responses.
 5. **Review and reflect.** Test the page in a browser, move through the controls with Tab, and write one sentence about how labels or table headers help a visitor.
 
 **What to keep:** your content page, survey page, and short reflection. A screen reader is optional; the keyboard and browser checks are enough to complete the tasks.
+
+### Module 2 progress check
+
+- [ ] My content page has a clear structure, descriptive links, and useful image text.
+- [ ] My form controls have visible, associated labels and my table has headers.
+- [ ] I checked the page with a browser and keyboard navigation.
+- [ ] I saved both pages and wrote a short reflection.
+
+**Next:** continue to [Module 3: CSS Styling & Layout](../03-css-styling-layout/README.md), or [return to the student module list](../).
 
 ## Student Instructions (Step‑by‑Step)
 

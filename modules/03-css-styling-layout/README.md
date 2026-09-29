@@ -2,6 +2,8 @@
 
 Style content with typography and colour, then build responsive layouts with Grid and Flexbox.
 
+**Start here:** Check the prerequisites below, then begin with the [Unit 3.1 tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/03-css-styling-layout/units/3.1-css-fundamentals/tutorial/unit-3.1-tutorial.md). Follow the numbered route on this page and return here after using materials on the Learning Materials site.
+
 ## Learning Outcomes
 
 - Applies CSS selectors and properties to control typography, colour, spacing, and hierarchy.
@@ -43,13 +45,22 @@ Style content with typography and colour, then build responsive layouts with Gri
 
 ## Your Route Through This Module
 
-1. **Unit 3.1 — Style a page.** Follow the [tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/03-css-styling-layout/units/3.1-css-fundamentals/tutorial/unit-3.1-tutorial.md) and [student workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/03-css-styling-layout/units/3.1-css-fundamentals/workbook/unit-3.1-student-workbook.md). Change one style at a time and observe the result. **Checkpoint:** your headings, text, links, and spacing have a clear visual hierarchy.
+1. **Unit 3.1 — Style a page.** Follow the [tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/03-css-styling-layout/units/3.1-css-fundamentals/tutorial/unit-3.1-tutorial.md) and [student workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/03-css-styling-layout/units/3.1-css-fundamentals/workbook/unit-3.1-student-workbook.md), then return here. Change one style at a time and observe the result. **Checkpoint:** your headings, text, links, and spacing have a clear visual hierarchy.
 2. **Practise Unit 3.1.** Complete [Style a Simple Portfolio Page](./tasks/task-1-style-a-portfolio.md). Save the page and stylesheet; use them as the starting point for the next unit.
-3. **Unit 3.2 — Adapt the layout.** Follow the [tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/03-css-styling-layout/units/3.2-responsive-layouts/tutorial/unit-3.2-tutorial.md) and [student workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/03-css-styling-layout/units/3.2-responsive-layouts/workbook/unit-3.2-student-workbook.md). **Checkpoint:** resize the browser and observe the cards change from one column to two without horizontal scrolling.
+3. **Unit 3.2 — Adapt the layout.** Follow the [tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/03-css-styling-layout/units/3.2-responsive-layouts/tutorial/unit-3.2-tutorial.md) and [student workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/03-css-styling-layout/units/3.2-responsive-layouts/workbook/unit-3.2-student-workbook.md), then return here. **Checkpoint:** resize the browser and observe the cards change from one column to two without horizontal scrolling.
 4. **Apply the core layout skill.** Complete [Build a Responsive Grid Layout](./tasks/task-2-responsive-layout.md) with one breakpoint, using your saved page or the [responsive layout example](./examples/responsive-layout.html). Add a second breakpoint only if you are ready for the extension.
 5. **Review and reflect.** Check the page at a narrow width and navigate links with Tab. Note one design decision that improved readability.
 
 **What to keep:** your styled page, responsive version, and short breakpoint/design note. DevTools are useful but not required; resizing the browser is enough for the core check.
+
+### Module 3 progress check
+
+- [ ] My page has consistent typography, colour, and spacing.
+- [ ] My layout adapts from one to two columns without horizontal scrolling.
+- [ ] I checked readability and keyboard focus at a narrow width.
+- [ ] I saved both versions and noted one design decision.
+
+**Next:** continue to [Module 4: JavaScript Essentials](../04-javascript-essentials/README.md), or [return to the student module list](../).
 
 ## Student Instructions (Step‑by‑Step)
 

@@ -2,6 +2,8 @@
 
 Represent a small dataset as a labelled Canvas bar chart. Focus on mapping values to bar heights and making the chart understandable without relying on the visual alone. SVG and other chart types are optional extensions.
 
+**Start here:** Check the prerequisites below, then begin with the [Unit 5.1 tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/05-data-visualization/units/5.1-canvas-basics/tutorial/unit-5.1-tutorial.md). Follow the numbered route on this page and return here after using materials on the Learning Materials site.
+
 ## Learning Outcomes
 
 - Maps numeric data to visual encodings (length, position, colour) with clear labels.
@@ -40,12 +42,21 @@ Represent a small dataset as a labelled Canvas bar chart. Focus on mapping value
 
 ## Your Route Through This Module
 
-1. **Unit 5.1 — Turn data into a chart.** Follow the [tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/05-data-visualization/units/5.1-canvas-basics/tutorial/unit-5.1-tutorial.md) and [student workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/05-data-visualization/units/5.1-canvas-basics/workbook/unit-5.1-student-workbook.md). Start by changing one value in the [bar chart example](./examples/canvas-bar-chart.html). **Checkpoint:** explain how a larger value changes a bar's height.
+1. **Unit 5.1 — Turn data into a chart.** Follow the [tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/05-data-visualization/units/5.1-canvas-basics/tutorial/unit-5.1-tutorial.md) and [student workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/05-data-visualization/units/5.1-canvas-basics/workbook/unit-5.1-student-workbook.md), then return here. Start by changing one value in the [bar chart example](./examples/canvas-bar-chart.html). **Checkpoint:** explain how a larger value changes a bar's height.
 2. **Practise with a small dataset.** Choose 4–8 values and identify their labels and units before drawing. Use the tutorial's scale example to map values to pixels.
 3. **Make and check your chart.** Complete [Visualize a Small Dataset](./tasks/task-1-visualize-dataset.md). Add a title, readable labels, and a companion HTML table so the values are available as text.
 4. **Reflect.** Explain why you chose this chart and name one way the scale or labels could affect how a reader interprets it.
 
 **What to keep:** your HTML file, chart screenshot, companion table, and short reflection. Use a small local or invented dataset; external data is optional.
+
+### Module 5 progress check
+
+- [ ] My dataset has 4–8 values with clear labels and units.
+- [ ] My chart maps values consistently and includes a title and labels.
+- [ ] I added a companion HTML table and checked the chart in a browser.
+- [ ] I saved a screenshot and explained one choice or limitation.
+
+**Next:** continue to [Module 6: Creative Web Projects](../06-creative-web-projects/README.md), or [return to the student module list](../).
 
 ## Student Instructions (Step‑by‑Step)
 
