@@ -2,22 +2,21 @@
 
 This is the macro-view of how modules and learning units are sequenced, how they build on each other, and how they align with key competence development.
 
-| Module                            | Unit Title                          | Main Focus                                     | Estimated Duration | Key Competences Addressed |
-| --------------------------------- | ----------------------------------- | ---------------------------------------------- | ------------------ | ------------------------- |
-| Module 1: Introduction to the Web | Unit 1.1: What is a Web Page?       | Understanding web technologies, file structure | 1 session          | 1.1, 3.1                  |
-|                                   | Unit 1.2: Semantic HTML             | Tags, structure, accessibility                 | 1 session          | 3.1, 1.2                  |
-| Module 2: HTML Foundations        | Unit 2.1: Building Content          | Headings, paragraphs, lists, links             | 2 sessions         | 3.1, 1.3                  |
-|                                   | Unit 2.2: Structuring for Access    | Forms, tables, semantics                       | 2 sessions         | 3.1, 1.3                  |
-| Module 3: CSS Styling & Layout    | Unit 3.1: Applying Styles           | Selectors, colours, typography                 | 2 sessions         | 3.2, 1.3                  |
-|                                   | Unit 3.2: Responsive Layouts        | Flexbox, grid, mobile design                   | 2 sessions         | 3.2, 3.1                  |
-| Module 4: JavaScript Essentials   | Unit 4.1: Programming Basics        | Variables, conditions, loops                   | 2 sessions         | 3.4, 5.1                  |
-|                                   | Unit 4.2: DOM Manipulation & Events | Interactivity, user input                      | 2 sessions         | 3.4, 5.3                  |
-| Module 5: Data & Visualization    | Unit 5.1: Working with Data         | JSON, arrays, external data                    | 2 sessions         | 1.3, 3.4                  |
-|                                   | Unit 5.2: Visual Representation     | Charting, canvas, simple games                 | 2 sessions         | 3.4, 5.3                  |
-| Module 6: Creative Web Projects   | Unit 6.1: Design Thinking with Code | Ideation, prototyping, web artefact            | 2–3 sessions       | 3.1, 5.2, 5.3             |
-|                                   | Unit 6.2: Peer Review & Iteration   | Feedback, refinement, deployment               | 1–2 sessions       | 2.4, 5.3                  |
-| Module 7: Green STEAM Challenge   | Unit 7.1: Sustainability Web App    | Apply skills to an SDG theme                   | 3 sessions         | 3.4, 5.2, 2.2             |
-|                                   | Unit 7.2: Presentation & Reflection | Share, reflect, plan next steps                | 1 session          | 2.1, 4.2                  |
+| Module                            | Unit Title                                | Main Focus                                         | Estimated Duration | Key Competences Addressed |
+| --------------------------------- | ----------------------------------------- | -------------------------------------------------- | ------------------ | ------------------------- |
+| Module 1: Introduction to the Web | Unit 1.1: What Is the Web?                | Browser/server exchange and web technologies      | 1 session          | 1.1, 3.1                  |
+|                                   | Unit 1.2: Basic HTML Structure             | Document structure and semantic HTML               | 1 session          | 3.1, 1.2                  |
+| Module 2: HTML Foundations        | Unit 2.1: Building Content                | Headings, paragraphs, lists, links, and images     | 1–2 sessions       | 3.1, 1.3                  |
+|                                   | Unit 2.2: Structuring for Access           | Semantic structure, forms, and tables              | 1–2 sessions       | 3.1, 1.3                  |
+| Module 3: CSS Styling & Layout    | Unit 3.1: Styling Basics                   | Selectors, colour, typography, and box model       | 1–2 sessions       | 3.2, 1.3                  |
+|                                   | Unit 3.2: Layout & Responsive Design       | Flexbox, Grid, and media queries                   | 1–2 sessions       | 3.2, 3.1                  |
+| Module 4: JavaScript Essentials   | Unit 4.1: JavaScript Basics and Interaction | Values, functions, conditions, and a form event   | 1–2 sessions       | 3.4, 5.1                  |
+|                                   | Unit 4.2: DOM Events & Dynamic UI          | Events, DOM updates, arrays, and simple state      | 1–2 sessions       | 3.4, 5.3                  |
+| Module 5: Data & Visualization    | Unit 5.1: Canvas Basics                     | Map a small dataset to a labelled bar chart        | 2 sessions         | 1.3, 3.4                  |
+| Module 6: Creative Web Projects   | Unit 6.1: Generative Art                    | Create and refine a parameterized visual           | 2–3 sessions       | 3.1, 5.2, 5.3             |
+| Module 7: Green STEAM Challenge   | Unit 7.1: Sustainability Mini-App           | Plan, build, test, and present a small SDG app     | 3–4 sessions       | 3.4, 5.2, 2.2             |
+
+**Current inventory:** Modules 1–4 have two units each. Modules 5–7 have one unit each. Peer review, presentation, and reflection are part of the project sequence where relevant; they are not separate units in the current materials. Dataset selection and optional persistence are project choices, not prerequisites for extra numbered units.
 
 ---
 
