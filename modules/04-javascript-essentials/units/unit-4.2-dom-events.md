@@ -14,11 +14,11 @@
 - Separate state from view: compute state, then render the UI.
 - Encourage keyboard accessibility (labels, focus order).
 
-**Classroom Task:**
+**Core classroom task:**
 
-- Build a simple Todo list: add items via a text input, toggle done state, and filter by All/Active/Done.
+- Build a small list that accepts a non-empty item, stores it in an array, and renders the array on the page. Completion toggles, deletion, filters, and persistence are optional extensions.
 
-**Starter example:** See `examples/todo-list.html` for a minimal implementation with comments.
+**Starter example:** See `examples/todo-list.html` for a complete reference. Build the core first; the example’s extra features are optional.
 
 **Reflection prompt:**
 

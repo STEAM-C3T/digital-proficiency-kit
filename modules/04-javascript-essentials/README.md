@@ -19,7 +19,7 @@ Learn JavaScript fundamentals, then use events and DOM updates to build small, s
 
 ## Materials
 
-- Modern browser with DevTools console; text editor.
+- Modern browser and text editor; DevTools are optional for debugging.
 
 ## Contents
 
@@ -39,18 +39,18 @@ Learn JavaScript fundamentals, then use events and DOM updates to build small, s
 ## How This Module Works
 
 1. Learn JavaScript fundamentals and connect one form event to a function (Unit 4.1).
-2. Use DOM events and arrays to manage a stateful list UI (Unit 4.2).
+2. Use DOM events and arrays to build a small list UI (Unit 4.2); completion, deletion, filtering, and persistence are optional extensions.
 3. Explore examples, then implement tasks that progressively enhance an existing page.
 
 ## Your Route Through This Module
 
 1. **Unit 4.1 — Make a first interaction.** Follow the [tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/04-javascript-essentials/units/4.1-javascript-basics/tutorial/unit-4.1-tutorial.md) and [student workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/04-javascript-essentials/units/4.1-javascript-basics/workbook/unit-4.1-student-workbook.md). Trace the [calculator example](./examples/javascript-basics.html), predict an answer, then try it. **Checkpoint:** explain which function calculates the answer and which event calls it. Arrays and loops are optional at this stage.
 2. **Practise Unit 4.1.** Complete [Build a First JavaScript Calculator](./tasks/task-1-interactive-elements.md). Save the working file before moving on.
-3. **Unit 4.2 — Keep a small interface in sync with state.** Follow the [tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/04-javascript-essentials/units/4.2-dom-manipulation/tutorial/unit-4.2-tutorial.md) and [student workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/04-javascript-essentials/units/4.2-dom-manipulation/workbook/unit-4.2-student-workbook.md). Explore the [todo example](./examples/todo-list.html). **Checkpoint:** describe what changes in the array when an item is added or toggled, and how the page is rendered from it.
+3. **Unit 4.2 — Keep a small interface in sync with state.** Follow the [tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/04-javascript-essentials/units/4.2-dom-manipulation/tutorial/unit-4.2-tutorial.md) and [student workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/04-javascript-essentials/units/4.2-dom-manipulation/workbook/unit-4.2-student-workbook.md). Explore the [todo example](./examples/todo-list.html). **Checkpoint:** describe what changes in the array when an item is added, and how the page is rendered from it. Toggling items is optional extension work.
 4. **Build and check.** Complete [Build a Small Dynamic UI](./tasks/task-2-dom-events.md). Try keyboard operation and an empty input, then check how the page responds.
 5. **Reflect.** Describe one event, the state change it causes, and how the user sees the result.
 
-**What to keep:** your calculator, dynamic interface, and short event/state explanation. Browser DevTools can help you read errors, but they are not required to use the examples.
+**What to keep:** your calculator, dynamic interface, and short event/state explanation. Browser DevTools can help you read errors, but they are not required.
 
 ## Student Instructions (Step‑by‑Step)
 
