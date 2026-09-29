@@ -38,6 +38,15 @@ Represent small datasets visually using Canvas or SVG. Focus on mapping values t
 3. Implement scaling, draw marks, and label axes/values clearly.
 4. Provide a companion HTML table for screen reader access.
 
+## Your Route Through This Module
+
+1. **Unit 5.1 — Turn data into a chart.** Follow the [tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/05-data-visualization/units/5.1-canvas-basics/tutorial/unit-5.1-tutorial.md) and [student workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/05-data-visualization/units/5.1-canvas-basics/workbook/unit-5.1-student-workbook.md). Start by changing one value in the [bar chart example](./examples/canvas-bar-chart.html). **Checkpoint:** explain how a larger value changes a bar's height.
+2. **Practise with a small dataset.** Choose 4–8 values and identify their labels and units before drawing. Use the tutorial's scale example to map values to pixels.
+3. **Make and check your chart.** Complete [Visualize a Small Dataset](./tasks/task-1-visualize-dataset.md). Add a title, readable labels, and a companion HTML table so the values are available as text.
+4. **Reflect.** Explain why you chose this chart and name one way the scale or labels could affect how a reader interprets it.
+
+**What to keep:** your HTML file, chart screenshot, companion table, and short reflection. Use a small local or invented dataset; external data is optional.
+
 ## Student Instructions (Step‑by‑Step)
 
 1. Open `examples/canvas-bar-chart.html`; change the `data` array and observe the result.

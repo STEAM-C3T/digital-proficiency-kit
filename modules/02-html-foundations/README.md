@@ -39,6 +39,16 @@ Build well‑structured, accessible content using semantic HTML. Learn headings,
 3. Complete the guided then independent tasks.
 4. Validate your page structure and form accessibility.
 
+## Your Route Through This Module
+
+1. **Unit 2.1 — Build clear content.** Follow the [tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/02-html-foundations/units/2.1-building-content/tutorial/unit-2.1-tutorial.md) and [student workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/02-html-foundations/units/2.1-building-content/workbook/unit-2.1-student-workbook.md). **Checkpoint:** your topic page has a meaningful heading structure, paragraphs, a list, a descriptive link, and an image with appropriate alt text.
+2. **Practise Unit 2.1.** Complete [Build a Content Page](./tasks/task-1-content-page.md). Save the page; you will extend it after Unit 2.2.
+3. **Unit 2.2 — Structure a form and data table.** Work through the [tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/02-html-foundations/units/2.2-structuring-for-access/tutorial/unit-2.2-tutorial.md) and [student workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/02-html-foundations/units/2.2-structuring-for-access/workbook/unit-2.2-student-workbook.md). Use [student-survey.html](./examples/student-survey.html) as a reference. **Checkpoint:** every form control has a visible label, and the table has headers that describe its columns.
+4. **Apply both units.** Complete [Build an Accessible Survey Page](./tasks/task-2-accessible-survey.md). Use fictional data only; this static practice page does not collect or store responses.
+5. **Review and reflect.** Test the page in a browser, move through the controls with Tab, and write one sentence about how labels or table headers help a visitor.
+
+**What to keep:** your content page, survey page, and short reflection. A screen reader is optional; the keyboard and browser checks are enough to complete the tasks.
+
 ## Student Instructions (Step‑by‑Step)
 
 1. Read Unit 2.1 and add headings, paragraphs, lists, links, and images for your topic.

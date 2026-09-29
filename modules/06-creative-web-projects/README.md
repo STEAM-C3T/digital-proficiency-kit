@@ -38,6 +38,16 @@ Explore generative visuals and interactive posters by combining HTML/CSS with Ja
 3. Iterate on composition, contrast, and motion for clarity and expression.
 4. Share and reflect on design intent and outcomes.
 
+## Your Route Through This Module
+
+1. **Unit 6.1 — Explore generative art.** Follow the [tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/06-creative-web-projects/units/6.1-generative-art/tutorial/unit-6.1-tutorial.md) and [student workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/06-creative-web-projects/units/6.1-generative-art/workbook/unit-6.1-student-workbook.md). Open the [generative art example](./examples/generative-art.html), predict what a parameter changes, then adjust it. **Checkpoint:** describe the role of one parameter in the image.
+2. **Make a small sketch.** Begin with one visual idea and one changeable property. Add controls only after the basic sketch works.
+3. **Create your poster.** Complete [Create an Interactive Poster](./tasks/task-1-creative-poster.md). Include a caption, test the layout at a narrow width, and provide a way to pause or reduce motion.
+4. **Get feedback and iterate.** Ask a classmate what they think the poster communicates, make one purposeful change, and record before/after screenshots.
+5. **Reflect.** Write a short artist statement describing your intent and one change you made after testing.
+
+**What to keep:** your HTML file, two iteration screenshots, caption, and artist statement. Peer feedback is part of this project sequence; it is not a separate unit.
+
 ## Student Instructions (Step‑by‑Step)
 
 1. Open `examples/generative-art.html`; change variables and see effects.

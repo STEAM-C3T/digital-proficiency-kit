@@ -41,6 +41,16 @@ Style content with typography and colour, then build responsive layouts with Gri
 3. Explore the examples and replicate patterns in your project.
 4. Complete tasks: style a portfolio; build a responsive grid.
 
+## Your Route Through This Module
+
+1. **Unit 3.1 — Style a page.** Follow the [tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/03-css-styling-layout/units/3.1-css-fundamentals/tutorial/unit-3.1-tutorial.md) and [student workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/03-css-styling-layout/units/3.1-css-fundamentals/workbook/unit-3.1-student-workbook.md). Change one style at a time and observe the result. **Checkpoint:** your headings, text, links, and spacing have a clear visual hierarchy.
+2. **Practise Unit 3.1.** Complete [Style a Simple Portfolio Page](./tasks/task-1-style-a-portfolio.md). Save the page and stylesheet; use them as the starting point for the next unit.
+3. **Unit 3.2 — Adapt the layout.** Follow the [tutorial](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/03-css-styling-layout/units/3.2-responsive-layouts/tutorial/unit-3.2-tutorial.md) and [student workbook](https://github.com/STEAM-C3T/dpk-learning-materials/blob/main/modules/03-css-styling-layout/units/3.2-responsive-layouts/workbook/unit-3.2-student-workbook.md). **Checkpoint:** resize the browser and observe the cards change from one column to more columns without horizontal scrolling.
+4. **Apply the layout skill.** Complete [Build a Responsive Grid Layout](./tasks/task-2-responsive-layout.md), using your saved page or the [responsive layout example](./examples/responsive-layout.html).
+5. **Review and reflect.** Check the page at a narrow width and navigate links with Tab. Note one design decision that improved readability.
+
+**What to keep:** your styled page, responsive version, and short breakpoint/design note. DevTools are useful but not required; resizing the browser is enough for the core check.
+
 ## Student Instructions (Step‑by‑Step)
 
 1. Choose a simple multi‑section page (from Modules 1–2 or provided example).
